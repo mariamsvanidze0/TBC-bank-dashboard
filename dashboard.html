@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="banking dashboard, online banking, financial app, money management, personal finance, account balance, transactions, responsive banking, finance dashboard, banking UI, digital banking, user profile, banking design, modern bank app, financial tracker">
+    <meta name="author" content="Mariam Svanidze">
+    <title>ციფრული ბანკი</title>
+    <link rel="icon" href="images/tbcge-logo-48.png" type="image/png">
+    <link rel="stylesheet" href="./styles/dashboard.css">
+</head>
+<body>
+  <input type="checkbox" id="dark-mode-toggle" hidden >
+  <label for="dark-mode-toggle" class="dark-mode-btn">🌙</label>  
+  <!-- header component -->
+    <header>
+   
+            <div class="header-main">
+                <nav class="header-logo">
+                    <a id="logo" href="./index.html">
+                        <img src="./images/tbcge-logo.svg" alt="tbclogo">
+                    </a>
+                    <a href="./index.html">თიბისი</a>
+                  </nav>
+                <div  class="header-right">
+                  <p>მარიამ სვანიძე</p>
+                   <img id="user" src="./images/portrait.jpg" alt="portrait">
+                    <img id="log-out" src="./images/logout-outlined.svg" alt="logOut">
+                  </div>
+                </div>
+    
+        <div class="divider"></div>
+
+            <div class="header-below">
+        <nav class="options">
+         <a href="./dashboard.html">მთავარი</a>
+         <a href="./error.html">ჩემი პროდუქტები</a>
+         <a href="./error.html">გადარიცხვები</a>
+         <a href="./transactions.html">ტრანზაქციები</a>
+         <a href="./error.html">ჩემი ფინანსები</a>
+         <a href="./error.html">პროდუქტების აქტივაცია</a>
+        </nav>
+        <div class="icons">
+          <img src="./images/chat-outlined.svg" alt="chat-outlined">
+          <img src="./images/envelope-outlined.svg" alt="envelope-outlined">
+          <img src="./images/settings-outlined.svg" alt="settings-outlined">
+        </div>
+    </div>
+         </header>
+   
+         <!-- main content -->
+         <div class="page-wrapper">
+         <main>
+          <section>
+            <div class="slides">
+              <div class="eachSlide">
+                 <img src="./images/1.avif" alt="">
+                 <div class="caption">
+                 <h1>აიღე ახალი თიბისის ბარათი </h1> 
+                 <button class="bttn">
+                    <img src="./images/arrow-right-white.svg" alt="arrow">
+                   <span> ვრცლად</span>
+                 </button>
+                 </div>
+              </div>
+
+
+              <div class="eachSlide">
+                <img src="./images/2.avif" alt="">
+                <div class="caption">
+                <h1>გახსენი მობაილბანკი </h1> 
+                <button class="bttn">
+                   <img src="./images/arrow-right-white.svg" alt="arrow">
+                  <span> დეტალურად</span>
+                </button>
+                </div>
+             </div>
+
+             <div class="eachSlide">
+                <img src="./images/3.avif" alt="">
+                <div class="caption">
+                <h1>მოითხოვე ხელფასზე 10-ჯერ მეტი სესხი</h1> 
+                <button class="bttn">
+                   <img src="./images/arrow-right-white.svg" alt="arrow">
+                  <span> ვრცლად</span>
+                </button>
+                </div>
+             </div>
+
+             <div class="eachSlide">
+                <img src="./images/4.avif" alt="">
+                <div class="caption">
+                <h1>გაანაღდე ფულადი გზავნილი მობაილბანკში</h1> 
+                <button class="bttn">
+                   <img src="./images/arrow-right-white.svg" alt="arrow">
+                  <span> ვრცლად</span>
+                </button>
+                </div>
+             </div>
+
+             <div class="eachSlide">
+                <img src="./images/5.avif" alt="">
+                <div class="caption">
+                <h1>გახსენი დეპოზიტი მობაილბანკში </h1> 
+                <button class="bttn">
+                   <img src="./images/arrow-right-white.svg" alt="arrow">
+                  <span> დეტალურად</span>
+                </button>
+                </div>
+             </div>
+
+             <div class="eachSlide">
+                <img src="./images/6.avif" alt="">
+                <div class="caption">
+                <h1>დაიბრუნე და გადაანააწილე</h1> 
+                <button class="bttn">
+                   <img src="./images/arrow-right-white.svg" alt="arrow">
+                  <span> ვრცლად</span>
+                </button>
+                </div>
+             </div>
+
+             <div class="eachSlide">
+                <img src="./images/7.avif" alt="">
+                <div class="caption">
+                <h1>გადარიცხე მომენტალურად </h1> 
+                <button class="bttn">
+                   <img src="./images/arrow-right-white.svg" alt="arrow">
+                  <span> დეტალურად</span>
+                </button>
+                </div>
+             </div>
+            </div>
+          </section>
+            <div class="content">
+
+            <!-- left side (cards and transactions) -->
+         <div class="left-grid">
+           <section>
+           <div class="loan">
+               <img src="./images/sesx.jpg" alt="display-image">
+               <div class="loan-content">
+               <h4>სამომხმარებლო სესხი</h4>
+               <p>მოითხოვე ხელფასზე 10-ჯერ მეტი სესხი. ეფექტური 18%-დან</p>
+            </div>
+           </div>
+          </section>
+          <!-- personal cards section -->
+          <article>
+            <div class="cards-wrapper">
+              <div class="cards">
+                <h5>ანგარიშები</h5>
+                <div class="each-card">
+                  <div class="card-and-name">
+                    <div class="vertical-line"></div>
+                    <img src="./images/TBCcard.png" alt="card">
+                    <div class="card-name">
+                      <h6>ბარათი</h6>
+                      <p>TBC CARD</p>
+                    </div>
+                  </div>
+                  <div class="money">
+                    <span> 1050,01</span>
+                    <p>GEL</p>
+                    <img src="./images/arrow-right-blue.svg" alt="arrow-right-blue">
+                  </div>
+                </div>
+              </div>
+            
+              <div class="cards">
+                <h5>ანგარიშები</h5>
+                <div class="each-card">
+                  <div class="card-and-name">
+                    <div class="vertical-line"></div>
+                    <img src="./images/tbc_concept_card.png" alt="card">
+                    <div class="card-name">
+                      <h6>თიბისი კონცეპტ ბარათი</h6>
+                      <p>TBC CARD</p>
+                    </div>
+                  </div>
+                  <div class="money">
+                    <span> 799,25</span>
+                    <p>GEL</p>
+                    <img src="./images/arrow-right-blue.svg" alt="arrow-right-blue">
+                  </div>
+                </div>
+              </div>
+            
+              <div class="cards">
+                <h5>ანგარიშები</h5>
+                <div class="each-card">
+                  <div class="card-and-name">
+                    <div class="vertical-line"></div>
+                    <img src="./images/tbc_concept_360_card.png" alt="card">
+                    <div class="card-name">
+                      <h6>თიბისი კონცეპტ 360 ბარათი</h6>
+                      <p>TBC CARD</p>
+                    </div>
+                  </div>
+                  <div class="money">
+                    <span> 2589,89</span>
+                    <p>GEL</p>
+                    <img src="./images/arrow-right-blue.svg" alt="arrow-right-blue">
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+          </article>
+          <!-- transactions sector -->
+          <article>
+            <div class="transactions">
+              <nav class="transactions-header">
+                <a href="./transactions.html">ბოლო ტრანზაქციები</a>
+              </nav>
+            
+              <div class="all-transactions">
+                <div class="divider"></div>
+                <div class="each-transaction">
+                  <div class="date">
+                    <img src="./images/success-icon.svg" alt="success-icon">
+                    <p>06 ივლ 2025</p>
+                    <span>თიბისი ბანკის MC ბარათებით სავაჭრო ობი...</span>
+                  </div>
+                  <div class="money-amount">
+                    <span>-8.20</span>
+                    <p>GEL</p>
+                  </div>
+                </div>
+            
+                <div class="divider"></div>
+                <div class="each-transaction">
+                  <div class="date">
+                    <img src="./images/success-icon.svg" alt="success-icon">
+                    <p>06 ივლ 2025</p>
+                    <span>თიბისი ბანკის MC CONCEPT ბარათებით სავ...</span>
+                  </div>
+                  <div class="money-amount">
+                    <span>-57.98</span>
+                    <p>GEL</p>
+                  </div>
+                </div>
+            
+                <div class="divider"></div>
+                <div class="each-transaction">
+                  <div class="date">
+                    <img src="./images/success-icon.svg" alt="success-icon">
+                    <p>05 ივლ 2025</p>
+                    <span>მარიამ სვანიძე პირადი გადარიცხვა თიბის...</span>
+                  </div>
+                  <div class="money-amount">
+                    <span>-200</span>
+                    <p>GEL</p>
+                  </div>
+                </div>
+            
+                <div class="divider"></div>
+                <div class="each-transaction">
+                  <div class="date">
+                    <img src="./images/success-icon.svg" alt="success-icon">
+                    <p>04 ივლ 2025</p>
+                    <span>სხვა ბანკში გადარიცხვის საკომისიო...</span>
+                  </div>
+                  <div class="money-amount">
+                    <span>-1.00</span>
+                    <p>GEL</p>
+                  </div>
+                </div>
+            
+                <div class="divider"></div>
+                <div class="each-transaction">
+                  <div class="date">
+                    <img src="./images/success-icon.svg" alt="success-icon">
+                    <p>02 ივლ 2025</p>
+                    <span>P2P (საბარათე) გადარიცხვების სატრანზიტ...</span>
+                  </div>
+                  <div class="money-amount">
+                    <span>-81.90</span>
+                    <p>GEL</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+          </article>
+         </div>
+                 <!-- right side of the content (charts and currency values) -->
+         <div class="right-grid">
+
+          <!-- exchange rates section -->
+          <section>
+          <div class="currency-div">
+            <h6 id="currency-header">ვალუტის კურსები</h6>
+            <div class="divider"></div>
+            <div class="currency-values">
+                 <div class="each-currency">
+                    <div class="currency-country">
+                  <img src="./images/america.png" alt="usa-flag">
+                  <p>USD</p>
+                </div>
+                  <h2>2,7181</h2>
+                  <div class="up-and-down">
+                    <img src="./images/arrow-up-outlined.svg" alt="arrow-up-outlined">
+                    <h6>0,0001</h6>
+
+                  </div>
+                 </div>
+
+
+                 <div class="each-currency">
+                    <div class="currency-country">
+                  <img src="./images/eu.png" alt="eu-flag">
+                  <p>EUR</p>
+                </div>
+                  <h2>3,1875</h2>
+                  <div class="up-and-down">
+                    <img src="./images/arrow-up-outlined.svg" alt="arrow-up-outlined">
+                    <h6>0,0001</h6>
+
+                  </div>
+                 </div>
+
+
+                 <div class="each-currency">
+                    <div class="currency-country">
+                  <img src="./images/england.png" alt="england-flag">
+                  <p>GBP</p>
+                </div>
+                  <h2>3,6909</h2>
+                  <div class="up-and-down">
+                    <img src="./images/arrow-down-outlined.svg" alt="arrow-up-outlined">
+                    <h6 id="red">0.0050</h6>
+
+                  </div>
+                 </div>
+
+            </div>
+          </div>
+        </section>
+         <!-- cashflow section -->
+         <section>
+          <div class="flow">
+            <h6>ფულადი ბრუნვა</h6>
+            <div class="divider"></div>
+            <div class="circle">
+                <div class="color-wheel"></div>
+              <div class="this-month">
+                  <h6>მიმდინარე თვე</h6>
+                  <div class="monthly-payment">
+                    <span>7293,80</span>
+                    <p>GEL</p>
+                  </div>
+              </div>
+            </div>
+            <div class="flow-specified">
+                <div class="each-flow">
+                 <div class="colored-div">
+                  <div class="colored-circle"></div>
+                  <p>საოჯახო ხარჯი</p>
+                </div>
+                  <div class="amount">
+                    <span> 2104,08</span>
+                    <p>GEL</p>
+                  </div>
+                </div>
+
+                <div class="each-flow">
+                    <div class="colored-div">
+                     <div class="red-circle"></div>
+                     <p>რესტორანი, კაფე, ბარი</p>
+                   </div>
+                     <div class="amount">
+                       <span>1120,15</span>
+                       <p>GEL</p>
+                     </div>
+                   </div>
+
+                   
+                   <div class="each-flow">
+                    <div class="colored-div">
+                     <div class="yellow-circle"></div>
+                     <p>კომუნალური გადახდები</p>
+                   </div>
+                     <div class="amount">
+                       <span>505,17</span>
+                       <p>GEL</p>
+                     </div>
+                   </div>
+
+                   
+                   <div class="each-flow">
+                    <div class="colored-div">
+                     <div class="green-circle"></div>
+                     <p>გართობა</p>
+                   </div>
+                     <div class="amount">
+                       <span>1288,23</span>
+                       <p>GEL</p>
+                     </div>
+                   </div>
+
+                   
+                   <div class="each-flow">
+                    <div class="colored-div">
+                     <div class="blue-circle"></div>
+                     <p>საყიდლები</p>
+                   </div>
+                     <div class="amount">
+                       <span>1443,21</span>
+                       <p>GEL</p>
+                     </div>
+                   </div>
+
+                   
+                   <div class="each-flow">
+                    <div class="colored-div">
+                     <div class="purple-circle"></div>
+                     <p>ჯანმრთელობა, სილამაზე</p>
+                   </div>
+                     <div class="amount">
+                       <span>1444,21</span>
+                       <p>GEL</p>
+                     </div>
+                   </div>
+
+            </div>
+          </div>
+        </section>
+         </div>
+        </div>
+    <!-- mobile version dashboard -->
+     
+     <nav class="mobile-bar-wrapper">
+    <a href="./dashboard.html"><img src="./images/mobile-icons/home-outlined.svg" alt="home-outlined"></a>
+    <a href="/error.html"><img src="./images/mobile-icons/layers-outlined.svg" alt="layers-outlined"></a>
+    <a href="/error.html"><img src="./images/mobile-icons/swap-alt-outlined.svg" alt="swap-outlined"></a>
+    <a href="./transactions.html"><img src="./images/mobile-icons/file-outlined.svg" alt="file-outlined"></a>
+    <a href="./error.html"><img src="./images/mobile-icons/chart-pie-sep-outlined.svg" alt="chart-pie-sep-outlined"></a>
+    <a href="./error.html"><img src="./images/mobile-icons/coupon-outlined.svg" alt="coupon-outlined"></a>           
+     </nav>
+         </main>
+         <footer>
+          <div class="footer-container">
+            <p>© 2025 თიბისი ბანკი • ყველა უფლება დაცულია</p>
+            <nav class="footer-links">
+              <a href="#">კონტაქტი</a>
+              <a href="#">წესები და პირობები</a>
+              <a href="#">კონფიდენციალურობა</a>
+            </nav>
+          </div>
+        </footer>
+        
+        </div>
+</body>
+</html>
