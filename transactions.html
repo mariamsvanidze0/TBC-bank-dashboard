@@ -1,0 +1,2389 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="keywords" content="banking dashboard, online banking, financial app, money management, personal finance, account balance, transactions, responsive banking, finance dashboard, banking UI, digital banking, user profile, banking design, modern bank app, financial tracker">
+  <meta name="author" content="Mariam Svanidze">
+  <title>გადახდები</title>
+  <link rel="icon" href="images/tbcge-logo-48.png" type="image/png">
+  <link rel="stylesheet" href="./styles/transactions.css">  
+</head>
+<body>
+  <input type="checkbox" id="dark-mode-toggle" hidden >
+  <label for="dark-mode-toggle" class="dark-mode-btn">🌙</label>  
+    <!-- header section -->
+    <header>
+   
+      <div class="header-main">
+          <nav class="header-logo">
+              <a id="logo" href="./index.html">
+                  <img src="./images/tbcge-logo.svg" alt="tbclogo">
+              </a>
+              <a href="./index.html">თიბისი</a>
+            </nav>
+          <div  class="header-right">
+            <p>მარიამ სვანიძე</p>
+             <img id="user" src="./images/portrait.jpg" alt="portrait">
+              <img id="log-out" src="./images/logout-outlined.svg" alt="logOut">
+            </div>
+          </div>
+
+  <div class="divider"></div>
+
+      <div class="header-below">
+  <nav class="options">
+   <a href="./dashboard.html">მთავარი</a>
+   <a href="./error.html">ჩემი პროდუქტები</a>
+   <a href="./error.html">გადარიცხვები</a>
+   <a href="./transactions.html">ტრანზაქციები</a>
+   <a href="./error.html">ჩემი ფინანსები</a>
+   <a href="./error.html">პროდუქტების აქტივაცია</a>
+  </nav>
+  <div class="icons">
+    <img src="./images/chat-outlined.svg" alt="chat-outlined">
+    <img src="./images/envelope-outlined.svg" alt="envelope-outlined">
+    <img src="./images/settings-outlined.svg" alt="settings-outlined">
+  </div>
+</div>
+   </header>
+         <div class="page-wrapper">
+         <main>
+            <!-- transactions section -->
+
+              <div class="wrapper-div">
+                <div class="transactions-header">
+                  <h6>თარიღი</h6>
+                  <h6>დანიშნულება/დეტალები</h6>
+                  <h6>კატეგორია</h6>
+                  <h6>ანგარიში</h6>
+                  <h6>თანხა</h6>                  
+                </div>
+          
+                <!-- each transaction separately -->
+                <div class="divider-transactions"></div>
+                <div class="each-transaction">
+                  <div class="date">
+                    <img src="./images/success-icon.svg" alt="success-icon" >
+                    <p>06 ივლ 2025</p>
+                  </div>
+                  <span>თიბისი ბანკის MC ბარათებით სავაჭრო ობი...</span>
+                  <div class="category">
+                    <img src="./images/FAMILY.svg" alt="FAMILY">
+                    <p>პროდუქტები სახლისთვის</p>
+                  </div>
+                  <div class="ang">
+                    <p>GE14...0051</p>
+                  </div>
+                  <div class="money-amount">
+                    <span>-8.20</span>
+                    <p>GEL</p>
+                  </div>
+                </div>
+          
+                 <!-- each transaction separately -->
+                <div class="divider-transactions"></div>
+                <div class="each-transaction">
+                  <div class="date">
+                    <img src="./images/success-icon.svg" alt="success-icon" >
+                    <p>06 ივლ 2025</p>
+                  </div>
+                  <span>თიბისი ბანკის MC CONCEPT ბარათებით სავ...</span>
+                  <div class="category">
+                    <img src="./images/FAMILY.svg" alt="FAMILY">
+                    <p>პროდუქტები სახლისთვის</p>
+                  </div>
+                  <div class="ang">
+                    <p>GE15...0067</p>
+                  </div>
+                  <div class="money-amount">
+                    <span>-57.98</span>
+                    <p>GEL</p>
+                  </div>
+                </div>
+
+           <!-- each transaction separately -->
+                <div class="divider-transactions"></div>
+                <div class="each-transaction">
+                  <div class="date">
+                    <img src="./images/success-icon.svg" alt="success-icon" >
+                    <p>06 ივლ 2025</p>
+                  </div>
+                  <span>მარიამ სვანიძე პირადი გადარიცხვა თიბის...</span>
+                  <div class="category">
+                    <img src="./images/PAYMENTS.svg" alt="FAMILY">
+                    <p>გადარიცხვები</p>
+                  </div>
+                  <div class="ang">
+                    <p>GE14...0051</p>
+                  </div>
+                  <div class="money-amount">
+                    <span>-200</span>
+                    <p>GEL</p>
+                  </div>
+                </div>
+          
+                 <!-- each transaction separately -->
+                <div class="divider-transactions"></div>
+                <div class="each-transaction">
+                  <div class="date">
+                    <img src="./images/success-icon.svg" alt="success-icon" >
+                    <p>06 ივლ 2025</p>
+                  </div>
+                  <span>სხვა ბანკში გადარიცხვის საკომისიო...</span>
+                  <div class="category">
+                    <img src="./images/BANK_INSURE_TAX.svg" alt="FAMILY">
+                    <p>საკომისიოები</p>
+                  </div>
+                  <div class="ang">
+                    <p>GE15...0067</p>
+                  </div>
+                  <div class="money-amount">
+                    <span>-1.00</span>
+                    <p>GEL</p>
+                  </div>
+                </div>
+          
+                 <!-- each transaction separately -->
+                <div class="divider-transactions"></div>
+                <div class="each-transaction">
+                  <div class="date">
+                    <img src="./images/success-icon.svg" alt="success-icon" >
+                    <p>06 ივლ 2025</p>
+                  </div>
+                  <span>P2P (საბარათე) გადარიცხვების სატრანზიტ...</span>
+                  <div class="category">
+                    <img src="./images/HEALTHCARE.svg" alt="FAMILY">
+                    <p>წამლები</p>
+                  </div>
+                  <div class="ang">
+                    <p>GE15...0067</p>
+                  </div>
+                  <div class="money-amount">
+                    <span>-81,90</span>
+                    <p>GEL</p>
+                  </div>
+                </div>
+          
+                <div class="divider-transactions"></div>
+                <div class="each-transaction">
+                  <div class="date">
+                    <img src="./images/success-icon.svg" alt="success-icon" >
+                    <p>05 ივლ 2025</p>
+                  </div>
+                  <span>TBCBank_ის VISA/MC ბარათებით TBCBank_</span>
+                  <div class="category">
+                    <img src="./images/CASHOUT.svg" alt="FAMILY">
+                    <p>თანხის განაღდება</p>
+                  </div>
+                  <div class="ang">
+                    <p>GE15...0067</p>
+                  </div>
+                  <div class="money-amount">
+                    <span>-800</span>
+                    <p>GEL</p>
+                  </div>
+                </div>
+          
+                 <!-- each transaction separately -->
+                <div class="divider-transactions"></div>
+                <div class="each-transaction">
+                  <div class="date">
+                    <img src="./images/success-icon.svg" alt="success-icon" >
+                    <p>05 ივლ 2025</p>
+                  </div>
+                  <span>მარიამ სვანიძე, პირადი გადარიცხვა თიბისიშ..</span>
+                  <div class="category">
+                    <img src="./images/OTHER_INCOMES.svg" alt="FAMILY">
+                    <p>სხვა შემოსავლები</p>
+                  </div>
+                  <div class="ang">
+                    <p>GE15...0015</p>
+                  </div>
+                  <div class="money-amount">
+                    <span>+500</span>
+                    <p class="income-gel">GEL</p>
+                  </div>
+                </div>
+
+                 <!-- each transaction separately -->
+                <div class="divider-transactions"></div>
+                <div class="each-transaction">
+                  <div class="date">
+                    <img src="./images/success-icon.svg" alt="success-icon" >
+                    <p>05 ივლ 2025</p>
+                  </div>
+                  <span>მარიამ სვანიძე, პირადი გადარიცხვა თიბისიშ..</span>
+                  <div class="category">
+                    <img src="./images/OTHER_INCOMES.svg" alt="FAMILY">
+                    <p>სხვა შემოსავლები</p>
+                  </div>
+                  <div class="ang">
+                    <p>GE15...0015</p>
+                  </div>
+                  <div class="money-amount">
+                    <span>+1200</span>
+                    <p class="income-gel">GEL</p>
+                  </div>
+                </div>
+
+          <!-- each transaction separately -->
+                <div class="divider-transactions"></div>
+                <div class="each-transaction">
+                  <div class="date">
+                    <img src="./images/success-icon.svg" alt="success-icon" >
+                    <p>04 ივლ 2025</p>
+                  </div>
+                  <span>თიბისი ბანკის MC ბარათებით სავაჭრო ობიე...</span>
+                  <div class="category">
+                    <img src="./images/RESTAURANT.svg" alt="FAMILY">
+                    <p>რესტორანი, კაფე, ბარი</p>
+                  </div>
+                  <div class="ang">
+                    <p>GE15...0015</p>
+                  </div>
+                  <div class="money-amount">
+                    <span>117</span>
+                    <p>GEL</p>
+                  </div>
+                </div>
+
+                  <!-- each transaction separately -->
+                <div class="divider-transactions"></div>
+                <div class="each-transaction">
+                  <div class="date">
+                    <img src="./images/success-icon.svg" alt="success-icon" >
+                    <p>04 ივლ 2025</p>
+                  </div>
+                  <span>თიბისი ბანკის MC ბარათებით სავაჭრო ობი...</span>
+                  <div class="category">
+                    <img src="./images/TRANSPORT.svg" alt="FAMILY">
+                    <p>ავტომანქანის ხარჯი</p>
+                  </div>
+                  <div class="ang">
+                    <p>GE15...0015</p>
+                  </div>
+                  <div class="money-amount">
+                    <span>250</span>
+                    <p>GEL</p>
+                  </div>
+                </div>
+
+                                <!-- each transaction separately -->
+                <div class="divider-transactions"></div>
+                <div class="each-transaction">
+                  <div class="date">
+                    <img src="./images/success-icon.svg" alt="success-icon" >
+                    <p>04 ივლ 2025</p>
+                  </div>
+                  <span>თიბისი ბანკის MC ბარათებით სავაჭრო ობი...</span>
+                  <div class="category">
+                    <img src="./images/FAMILY.svg" alt="FAMILY">
+                    <p>პროდუქტები სახლისთვის</p>
+                  </div>
+                  <div class="ang">
+                    <p>GE14...0051</p>
+                  </div>
+                  <div class="money-amount">
+                    <span>-8.20</span>
+                    <p>GEL</p>
+                  </div>
+                </div>
+          
+                 <!-- each transaction separately -->
+                <div class="divider-transactions"></div>
+                <div class="each-transaction">
+                  <div class="date">
+                    <img src="./images/success-icon.svg" alt="success-icon" >
+                    <p>04 ივლ 2025</p>
+                  </div>
+                  <span>თიბისი ბანკის MC CONCEPT ბარათებით სავ...</span>
+                  <div class="category">
+                    <img src="./images/FAMILY.svg" alt="FAMILY">
+                    <p>პროდუქტები სახლისთვის</p>
+                  </div>
+                  <div class="ang">
+                    <p>GE15...0067</p>
+                  </div>
+                  <div class="money-amount">
+                    <span>-180</span>
+                    <p>GEL</p>
+                  </div>
+                </div>
+
+           <!-- each transaction separately -->
+                <div class="divider-transactions"></div>
+                <div class="each-transaction">
+                  <div class="date">
+                    <img src="./images/success-icon.svg" alt="success-icon" >
+                    <p>03 ივლ 2025</p>
+                  </div>
+                  <span>მარიამ სვანიძე პირადი გადარიცხვა თიბის...</span>
+                  <div class="category">
+                    <img src="./images/PAYMENTS.svg" alt="FAMILY">
+                    <p>გადარიცხვები</p>
+                  </div>
+                  <div class="ang">
+                    <p>GE14...0051</p>
+                  </div>
+                  <div class="money-amount">
+                    <span>-520</span>
+                    <p>GEL</p>
+                  </div>
+                </div>
+          
+                 <!-- each transaction separately -->
+                <div class="divider-transactions"></div>
+                <div class="each-transaction">
+                  <div class="date">
+                    <img src="./images/success-icon.svg" alt="success-icon" >
+                    <p>02 ივლ 2025</p>
+                  </div>
+                  <span>სხვა ბანკში გადარიცხვის საკომისიო...</span>
+                  <div class="category">
+                    <img src="./images/BANK_INSURE_TAX.svg" alt="FAMILY">
+                    <p>საკომისიოები</p>
+                  </div>
+                  <div class="ang">
+                    <p>GE15...0067</p>
+                  </div>
+                  <div class="money-amount">
+                    <span>-50.00</span>
+                    <p>GEL</p>
+                  </div>
+                </div>
+          
+                 <!-- each transaction separately -->
+                <div class="divider-transactions"></div>
+                <div class="each-transaction">
+                  <div class="date">
+                    <img src="./images/success-icon.svg" alt="success-icon" >
+                    <p>02 ივლ 2025</p>
+                  </div>
+                  <span>P2P (საბარათე) გადარიცხვების სატრანზიტ...</span>
+                  <div class="category">
+                    <img src="./images/HEALTHCARE.svg" alt="FAMILY">
+                    <p>წამლები</p>
+                  </div>
+                  <div class="ang">
+                    <p>GE15...0067</p>
+                  </div>
+                  <div class="money-amount">
+                    <span>-118.90</span>
+                    <p>GEL</p>
+                  </div>
+                </div>
+          
+                <div class="divider-transactions"></div>
+                <div class="each-transaction">
+                  <div class="date">
+                    <img src="./images/success-icon.svg" alt="success-icon" >
+                    <p>02 ივლ 2025</p>
+                  </div>
+                  <span>TBCBank_ის VISA/MC ბარათებით TBCBank_</span>
+                  <div class="category">
+                    <img src="./images/CASHOUT.svg" alt="FAMILY">
+                    <p>თანხის განაღდება</p>
+                  </div>
+                  <div class="ang">
+                    <p>GE15...0067</p>
+                  </div>
+                  <div class="money-amount">
+                    <span>-700</span>
+                    <p>GEL</p>
+                  </div>
+                </div>
+          
+                 <!-- each transaction separately -->
+                <div class="divider-transactions"></div>
+                <div class="each-transaction">
+                  <div class="date">
+                    <img src="./images/success-icon.svg" alt="success-icon" >
+                    <p>01 ივლ 2025</p>
+                  </div>
+                  <span>მარიამ სვანიძე, პირადი გადარიცხვა თიბისიშ..</span>
+                  <div class="category">
+                    <img src="./images/OTHER_INCOMES.svg" alt="FAMILY">
+                    <p>სხვა შემოსავლები</p>
+                  </div>
+                  <div class="ang">
+                    <p>GE15...0015</p>
+                  </div>
+                  <div class="money-amount">
+                    <span>+1200</span>
+                    <p class="income-gel">GEL</p>
+                  </div>
+                </div>
+
+                 <!-- each transaction separately -->
+                <div class="divider-transactions"></div>
+                <div class="each-transaction">
+                  <div class="date">
+                    <img src="./images/success-icon.svg" alt="success-icon" >
+                    <p>01 ივლ 2025</p>
+                  </div>
+                  <span>მარიამ სვანიძე, პირადი გადარიცხვა თიბისიშ..</span>
+                  <div class="category">
+                    <img src="./images/OTHER_INCOMES.svg" alt="FAMILY">
+                    <p>სხვა შემოსავლები</p>
+                  </div>
+                  <div class="ang">
+                    <p>GE15...0015</p>
+                  </div>
+                  <div class="money-amount">
+                    <span>+5000</span>
+                    <p class="income-gel">GEL</p>
+                  </div>
+                </div>
+
+          <!-- each transaction separately -->
+                <div class="divider-transactions"></div>
+                <div class="each-transaction">
+                  <div class="date">
+                    <img src="./images/success-icon.svg" alt="success-icon" >
+                    <p>01 ივლ 2025</p>
+                  </div>
+                  <span>თიბისი ბანკის MC ბარათებით სავაჭრო ობიე...</span>
+                  <div class="category">
+                    <img src="./images/RESTAURANT.svg" alt="FAMILY">
+                    <p>რესტორანი, კაფე, ბარი</p>
+                  </div>
+                  <div class="ang">
+                    <p>GE15...0015</p>
+                  </div>
+                  <div class="money-amount">
+                    <span>120</span>
+                    <p>GEL</p>
+                  </div>
+                </div>
+
+                  <!-- each transaction separately -->
+                <div class="divider-transactions"></div>
+                <div class="each-transaction">
+                  <div class="date">
+                    <img src="./images/success-icon.svg" alt="success-icon" >
+                    <p>30 ივნ 2025</p>
+                  </div>
+                  <span>თიბისი ბანკის MC ბარათებით სავაჭრო ობი...</span>
+                  <div class="category">
+                    <img src="./images/TRANSPORT.svg" alt="FAMILY">
+                    <p>საწვავი</p>
+                  </div>
+                  <div class="ang">
+                    <p>GE15...0015</p>
+                  </div>
+                  <div class="money-amount">
+                    <span>100</span>
+                    <p>GEL</p>
+                  </div>
+                </div>
+
+                                <!-- each transaction separately -->
+                <div class="divider-transactions"></div>
+                <div class="each-transaction">
+                  <div class="date">
+                    <img src="./images/success-icon.svg" alt="success-icon" >
+                    <p>30 ივნ 2025</p>
+                  </div>
+                  <span>თიბისი ბანკის MC ბარათებით სავაჭრო ობი...</span>
+                  <div class="category">
+                    <img src="./images/FAMILY.svg" alt="FAMILY">
+                    <p>პროდუქტები სახლისთვის</p>
+                  </div>
+                  <div class="ang">
+                    <p>GE14...0051</p>
+                  </div>
+                  <div class="money-amount">
+                    <span>-55</span>
+                    <p>GEL</p>
+                  </div>
+                </div>
+          
+                 <!-- each transaction separately -->
+                <div class="divider-transactions"></div>
+                <div class="each-transaction">
+                  <div class="date">
+                    <img src="./images/success-icon.svg" alt="success-icon" >
+                    <p>30 ივნ 2025</p>
+                  </div>
+                  <span>თიბისი ბანკის MC CONCEPT ბარათებით სავ...</span>
+                  <div class="category">
+                    <img src="./images/FAMILY.svg" alt="FAMILY">
+                    <p>პროდუქტები სახლისთვის</p>
+                  </div>
+                  <div class="ang">
+                    <p>GE15...0067</p>
+                  </div>
+                  <div class="money-amount">
+                    <span>-60</span>
+                    <p>GEL</p>
+                  </div>
+                </div>
+
+           <!-- each transaction separately -->
+                <div class="divider-transactions"></div>
+                <div class="each-transaction">
+                  <div class="date">
+                    <img src="./images/success-icon.svg" alt="success-icon" >
+                    <p>29 ივნ 2025</p>
+                  </div>
+                  <span>მარიამ სვანიძე პირადი გადარიცხვა თიბის...</span>
+                  <div class="category">
+                    <img src="./images/PAYMENTS.svg" alt="FAMILY">
+                    <p>გადარიცხვები</p>
+                  </div>
+                  <div class="ang">
+                    <p>GE14...0051</p>
+                  </div>
+                  <div class="money-amount">
+                    <span>-350</span>
+                    <p>GEL</p>
+                  </div>
+                </div>
+          
+                 <!-- each transaction separately -->
+                <div class="divider-transactions"></div>
+                <div class="each-transaction">
+                  <div class="date">
+                    <img src="./images/success-icon.svg" alt="success-icon" >
+                    <p>29 ივნ 2025</p>
+                  </div>
+                  <span>სხვა ბანკში გადარიცხვის საკომისიო...</span>
+                  <div class="category">
+                    <img src="./images/BANK_INSURE_TAX.svg" alt="FAMILY">
+                    <p>საკომისიოები</p>
+                  </div>
+                  <div class="ang">
+                    <p>GE15...0067</p>
+                  </div>
+                  <div class="money-amount">
+                    <span>-20</span>
+                    <p>GEL</p>
+                  </div>
+                </div>
+          
+                 <!-- each transaction separately -->
+                <div class="divider-transactions"></div>
+                <div class="each-transaction">
+                  <div class="date">
+                    <img src="./images/success-icon.svg" alt="success-icon" >
+                    <p>29 ივნ 2025</p>
+                  </div>
+                  <span>P2P (საბარათე) გადარიცხვების სატრანზიტ...</span>
+                  <div class="category">
+                    <img src="./images/HEALTHCARE.svg" alt="FAMILY">
+                    <p>წამლები</p>
+                  </div>
+                  <div class="ang">
+                    <p>GE15...0067</p>
+                  </div>
+                  <div class="money-amount">
+                    <span>-120</span>
+                    <p>GEL</p>
+                  </div>
+                </div>
+          
+                <div class="divider-transactions"></div>
+                <div class="each-transaction">
+                  <div class="date">
+                    <img src="./images/success-icon.svg" alt="success-icon" >
+                    <p>28 ივნ 2025</p>
+                  </div>
+                  <span>TBCBank_ის VISA/MC ბარათებით TBCBank_</span>
+                  <div class="category">
+                    <img src="./images/CASHOUT.svg" alt="FAMILY">
+                    <p>თანხის განაღდება</p>
+                  </div>
+                  <div class="ang">
+                    <p>GE15...0067</p>
+                  </div>
+                  <div class="money-amount">
+                    <span>-30</span>
+                    <p>GEL</p>
+                  </div>
+                </div>
+          
+                 <!-- each transaction separately -->
+                <div class="divider-transactions"></div>
+                <div class="each-transaction">
+                  <div class="date">
+                    <img src="./images/success-icon.svg" alt="success-icon" >
+                    <p>28 ივნ 2025</p>
+                  </div>
+                  <span>მარიამ სვანიძე, პირადი გადარიცხვა თიბისიშ..</span>
+                  <div class="category">
+                    <img src="./images/OTHER_INCOMES.svg" alt="FAMILY">
+                    <p>სხვა შემოსავლები</p>
+                  </div>
+                  <div class="ang">
+                    <p>GE15...0015</p>
+                  </div>
+                  <div class="money-amount">
+                    <span>+50</span>
+                    <p class="income-gel">GEL</p>
+                  </div>
+                </div>
+
+                 <!-- each transaction separately -->
+                <div class="divider-transactions"></div>
+                <div class="each-transaction">
+                  <div class="date">
+                    <img src="./images/success-icon.svg" alt="success-icon" >
+                    <p>28 ივნ 2025</p>
+                  </div>
+                  <span>მარიამ სვანიძე, პირადი გადარიცხვა თიბისიშ..</span>
+                  <div class="category">
+                    <img src="./images/OTHER_INCOMES.svg" alt="FAMILY">
+                    <p>სხვა შემოსავლები</p>
+                  </div>
+                  <div class="ang">
+                    <p>GE15...0015</p>
+                  </div>
+                  <div class="money-amount">
+                    <span>+170</span>
+                    <p class="income-gel">GEL</p>
+                  </div>
+                </div>
+
+          <!-- each transaction separately -->
+                <div class="divider-transactions"></div>
+                <div class="each-transaction">
+                  <div class="date">
+                    <img src="./images/success-icon.svg" alt="success-icon" >
+                    <p>27 ივნ 2025</p>
+                  </div>
+                  <span>თიბისი ბანკის MC ბარათებით სავაჭრო ობიე...</span>
+                  <div class="category">
+                    <img src="./images/RESTAURANT.svg" alt="FAMILY">
+                    <p>რესტორანი, კაფე, ბარი</p>
+                  </div>
+                  <div class="ang">
+                    <p>GE15...0015</p>
+                  </div>
+                  <div class="money-amount">
+                    <span>80</span>
+                    <p>GEL</p>
+                  </div>
+                </div>
+
+                  <!-- each transaction separately -->
+                <div class="divider-transactions"></div>
+                <div class="each-transaction">
+                  <div class="date">
+                    <img src="./images/success-icon.svg" alt="success-icon" >
+                    <p>27 ივნ 2025</p>
+                  </div>
+                  <span>თიბისი ბანკის MC ბარათებით სავაჭრო ობი...</span>
+                  <div class="category">
+                    <img src="./images/TRANSPORT.svg" alt="FAMILY">
+                    <p>ავტომანქანის ხარჯი</p>
+                  </div>
+                  <div class="ang">
+                    <p>GE15...0015</p>
+                  </div>
+                  <div class="money-amount">
+                    <span>180</span>
+                    <p>GEL</p>
+                  </div>
+                </div>
+
+                                <!-- each transaction separately -->
+                <div class="divider-transactions"></div>
+                <div class="each-transaction">
+                  <div class="date">
+                    <img src="./images/success-icon.svg" alt="success-icon" >
+                    <p>27 ივნ 2025</p>
+                  </div>
+                  <span>თიბისი ბანკის MC ბარათებით სავაჭრო ობი...</span>
+                  <div class="category">
+                    <img src="./images/FAMILY.svg" alt="FAMILY">
+                    <p>პროდუქტები სახლისთვის</p>
+                  </div>
+                  <div class="ang">
+                    <p>GE14...0051</p>
+                  </div>
+                  <div class="money-amount">
+                    <span>-90</span>
+                    <p>GEL</p>
+                  </div>
+                </div>
+          
+                 <!-- each transaction separately -->
+                <div class="divider-transactions"></div>
+                <div class="each-transaction">
+                  <div class="date">
+                    <img src="./images/success-icon.svg" alt="success-icon" >
+                    <p>26 ივნ 2025</p>
+                  </div>
+                  <span>თიბისი ბანკის MC CONCEPT ბარათებით სავ...</span>
+                  <div class="category">
+                    <img src="./images/FAMILY.svg" alt="FAMILY">
+                    <p>პროდუქტები სახლისთვის</p>
+                  </div>
+                  <div class="ang">
+                    <p>GE15...0067</p>
+                  </div>
+                  <div class="money-amount">
+                    <span>-90.55</span>
+                    <p>GEL</p>
+                  </div>
+                </div>
+
+           <!-- each transaction separately -->
+                <div class="divider-transactions"></div>
+                <div class="each-transaction">
+                  <div class="date">
+                    <img src="./images/success-icon.svg" alt="success-icon" >
+                    <p>26 ივნ 2025</p>
+                  </div>
+                  <span>მარიამ სვანიძე პირადი გადარიცხვა თიბის...</span>
+                  <div class="category">
+                    <img src="./images/PAYMENTS.svg" alt="FAMILY">
+                    <p>გადარიცხვები</p>
+                  </div>
+                  <div class="ang">
+                    <p>GE14...0051</p>
+                  </div>
+                  <div class="money-amount">
+                    <span>-500</span>
+                    <p>GEL</p>
+                  </div>
+                </div>
+          
+                 <!-- each transaction separately -->
+                <div class="divider-transactions"></div>
+                <div class="each-transaction">
+                  <div class="date">
+                    <img src="./images/success-icon.svg" alt="success-icon" >
+                    <p>26 ივნ 2025</p>
+                  </div>
+                  <span>სხვა ბანკში გადარიცხვის საკომისიო...</span>
+                  <div class="category">
+                    <img src="./images/BANK_INSURE_TAX.svg" alt="FAMILY">
+                    <p>საკომისიოები</p>
+                  </div>
+                  <div class="ang">
+                    <p>GE15...0067</p>
+                  </div>
+                  <div class="money-amount">
+                    <span>-50</span>
+                    <p>GEL</p>
+                  </div>
+                </div>
+          
+                 <!-- each transaction separately -->
+                <div class="divider-transactions"></div>
+                <div class="each-transaction">
+                  <div class="date">
+                    <img src="./images/success-icon.svg" alt="success-icon" >
+                    <p>25 ივნ 2025</p>
+                  </div>
+                  <span>P2P (საბარათე) გადარიცხვების სატრანზიტ...</span>
+                  <div class="category">
+                    <img src="./images/HEALTHCARE.svg" alt="FAMILY">
+                    <p>წამლები</p>
+                  </div>
+                  <div class="ang">
+                    <p>GE15...0067</p>
+                  </div>
+                  <div class="money-amount">
+                    <span>-100</span>
+                    <p>GEL</p>
+                  </div>
+                </div>
+          
+                <div class="divider-transactions"></div>
+                <div class="each-transaction">
+                  <div class="date">
+                    <img src="./images/success-icon.svg" alt="success-icon" >
+                    <p>25 ივნ 2025</p>
+                  </div>
+                  <span>TBCBank_ის VISA/MC ბარათებით TBCBank_</span>
+                  <div class="category">
+                    <img src="./images/CASHOUT.svg" alt="FAMILY">
+                    <p>თანხის განაღდება</p>
+                  </div>
+                  <div class="ang">
+                    <p>GE15...0067</p>
+                  </div>
+                  <div class="money-amount">
+                    <span>-800</span>
+                    <p>GEL</p>
+                  </div>
+                </div>
+          
+                 <!-- each transaction separately -->
+                <div class="divider-transactions"></div>
+                <div class="each-transaction">
+                  <div class="date">
+                    <img src="./images/success-icon.svg" alt="success-icon" >
+                    <p>25 ივნ 2025</p>
+                  </div>
+                  <span>მარიამ სვანიძე, პირადი გადარიცხვა თიბისიშ..</span>
+                  <div class="category">
+                    <img src="./images/OTHER_INCOMES.svg" alt="FAMILY">
+                    <p>სხვა შემოსავლები</p>
+                  </div>
+                  <div class="ang">
+                    <p>GE15...0015</p>
+                  </div>
+                  <div class="money-amount">
+                    <span>+500</span>
+                    <p class="income-gel">GEL</p>
+                  </div>
+                </div>
+
+                 <!-- each transaction separately -->
+                <div class="divider-transactions"></div>
+                <div class="each-transaction">
+                  <div class="date">
+                    <img src="./images/success-icon.svg" alt="success-icon" >
+                    <p>25 ივნ 2025</p>
+                  </div>
+                  <span>მარიამ სვანიძე, პირადი გადარიცხვა თიბისიშ..</span>
+                  <div class="category">
+                    <img src="./images/OTHER_INCOMES.svg" alt="FAMILY">
+                    <p>სხვა შემოსავლები</p>
+                  </div>
+                  <div class="ang">
+                    <p>GE15...0015</p>
+                  </div>
+                  <div class="money-amount">
+                    <span>+180</span>
+                    <p class="income-gel">GEL</p>
+                  </div>
+                </div>
+
+          <!-- each transaction separately -->
+                <div class="divider-transactions"></div>
+                <div class="each-transaction">
+                  <div class="date">
+                    <img src="./images/success-icon.svg" alt="success-icon" >
+                    <p>23 ივნ 2025</p>
+                  </div>
+                  <span>თიბისი ბანკის MC ბარათებით სავაჭრო ობიე...</span>
+                  <div class="category">
+                    <img src="./images/RESTAURANT.svg" alt="FAMILY">
+                    <p>რესტორანი, კაფე, ბარი</p>
+                  </div>
+                  <div class="ang">
+                    <p>GE15...0015</p>
+                  </div>
+                  <div class="money-amount">
+                    <span>117</span>
+                    <p>GEL</p>
+                  </div>
+                </div>
+
+                  <!-- each transaction separately -->
+                <div class="divider-transactions"></div>
+                <div class="each-transaction">
+                  <div class="date">
+                    <img src="./images/success-icon.svg" alt="success-icon" >
+                    <p>23 ივნ 2025</p>
+                  </div>
+                  <span>თიბისი ბანკის MC ბარათებით სავაჭრო ობი...</span>
+                  <div class="category">
+                    <img src="./images/TRANSPORT.svg" alt="FAMILY">
+                    <p>ავტომანქანის ხარჯი</p>
+                  </div>
+                  <div class="ang">
+                    <p>GE15...0015</p>
+                  </div>
+                  <div class="money-amount">
+                    <span>-117.90</span>
+                    <p>GEL</p>
+                  </div>
+                </div>
+
+                                <!-- each transaction separately -->
+                <div class="divider-transactions"></div>
+                <div class="each-transaction">
+                  <div class="date">
+                    <img src="./images/success-icon.svg" alt="success-icon" >
+                    <p>23 ივნ 2025</p>
+                  </div>
+                  <span>თიბისი ბანკის MC ბარათებით სავაჭრო ობი...</span>
+                  <div class="category">
+                    <img src="./images/FAMILY.svg" alt="FAMILY">
+                    <p>პროდუქტები სახლისთვის</p>
+                  </div>
+                  <div class="ang">
+                    <p>GE14...0051</p>
+                  </div>
+                  <div class="money-amount">
+                    <span>-200.10</span>
+                    <p>GEL</p>
+                  </div>
+                </div>
+          
+                 <!-- each transaction separately -->
+                <div class="divider-transactions"></div>
+                <div class="each-transaction">
+                  <div class="date">
+                    <img src="./images/success-icon.svg" alt="success-icon" >
+                    <p>23 ივნ 2025</p>
+                  </div>
+                  <span>თიბისი ბანკის MC CONCEPT ბარათებით სავ...</span>
+                  <div class="category">
+                    <img src="./images/FAMILY.svg" alt="FAMILY">
+                    <p>პროდუქტები სახლისთვის</p>
+                  </div>
+                  <div class="ang">
+                    <p>GE15...0067</p>
+                  </div>
+                  <div class="money-amount">
+                    <span>-53.70</span>
+                    <p>GEL</p>
+                  </div>
+                </div>
+
+           <!-- each transaction separately -->
+                <div class="divider-transactions"></div>
+                <div class="each-transaction">
+                  <div class="date">
+                    <img src="./images/success-icon.svg" alt="success-icon" >
+                    <p>23 ივნ 2025</p>
+                  </div>
+                  <span>მარიამ სვანიძე პირადი გადარიცხვა თიბის...</span>
+                  <div class="category">
+                    <img src="./images/PAYMENTS.svg" alt="FAMILY">
+                    <p>გადარიცხვები</p>
+                  </div>
+                  <div class="ang">
+                    <p>GE14...0051</p>
+                  </div>
+                  <div class="money-amount">
+                    <span>-200</span>
+                    <p>GEL</p>
+                  </div>
+                </div>
+          
+                 <!-- each transaction separately -->
+                <div class="divider-transactions"></div>
+                <div class="each-transaction">
+                  <div class="date">
+                    <img src="./images/success-icon.svg" alt="success-icon" >
+                    <p>23 ივნ 2025</p>
+                  </div>
+                  <span>სხვა ბანკში გადარიცხვის საკომისიო...</span>
+                  <div class="category">
+                    <img src="./images/BANK_INSURE_TAX.svg" alt="FAMILY">
+                    <p>საკომისიოები</p>
+                  </div>
+                  <div class="ang">
+                    <p>GE15...0067</p>
+                  </div>
+                  <div class="money-amount">
+                    <span>-1.00</span>
+                    <p>GEL</p>
+                  </div>
+                </div>
+          
+                 <!-- each transaction separately -->
+                <div class="divider-transactions"></div>
+                <div class="each-transaction">
+                  <div class="date">
+                    <img src="./images/success-icon.svg" alt="success-icon" >
+                    <p>22 ივნ 2025</p>
+                  </div>
+                  <span>P2P (საბარათე) გადარიცხვების სატრანზიტ...</span>
+                  <div class="category">
+                    <img src="./images/HEALTHCARE.svg" alt="FAMILY">
+                    <p>წამლები</p>
+                  </div>
+                  <div class="ang">
+                    <p>GE15...0067</p>
+                  </div>
+                  <div class="money-amount">
+                    <span>-81,90</span>
+                    <p>GEL</p>
+                  </div>
+                </div>
+          
+                <div class="divider-transactions"></div>
+                <div class="each-transaction">
+                  <div class="date">
+                    <img src="./images/success-icon.svg" alt="success-icon" >
+                    <p>22 ივნ 2025</p>
+                  </div>
+                  <span>TBCBank_ის VISA/MC ბარათებით TBCBank_</span>
+                  <div class="category">
+                    <img src="./images/CASHOUT.svg" alt="FAMILY">
+                    <p>თანხის განაღდება</p>
+                  </div>
+                  <div class="ang">
+                    <p>GE15...0067</p>
+                  </div>
+                  <div class="money-amount">
+                    <span>-800</span>
+                    <p>GEL</p>
+                  </div>
+                </div>
+          
+                 <!-- each transaction separately -->
+                <div class="divider-transactions"></div>
+                <div class="each-transaction">
+                  <div class="date">
+                    <img src="./images/success-icon.svg" alt="success-icon" >
+                    <p>22 ივნ 2025</p>
+                  </div>
+                  <span>მარიამ სვანიძე, პირადი გადარიცხვა თიბისიშ..</span>
+                  <div class="category">
+                    <img src="./images/OTHER_INCOMES.svg" alt="FAMILY">
+                    <p>სხვა შემოსავლები</p>
+                  </div>
+                  <div class="ang">
+                    <p>GE15...0015</p>
+                  </div>
+                  <div class="money-amount">
+                    <span>+500</span>
+                    <p class="income-gel">GEL</p>
+                  </div>
+                </div>
+
+                 <!-- each transaction separately -->
+                <div class="divider-transactions"></div>
+                <div class="each-transaction">
+                  <div class="date">
+                    <img src="./images/success-icon.svg" alt="success-icon" >
+                    <p>22 ივნ 2025</p>
+                  </div>
+                  <span>მარიამ სვანიძე, პირადი გადარიცხვა თიბისიშ..</span>
+                  <div class="category">
+                    <img src="./images/OTHER_INCOMES.svg" alt="FAMILY">
+                    <p>სხვა შემოსავლები</p>
+                  </div>
+                  <div class="ang">
+                    <p>GE15...0015</p>
+                  </div>
+                  <div class="money-amount">
+                    <span>+1200</span>
+                    <p class="income-gel">GEL</p>
+                  </div>
+                </div>
+
+          <!-- each transaction separately -->
+                <div class="divider-transactions"></div>
+                <div class="each-transaction">
+                  <div class="date">
+                    <img src="./images/success-icon.svg" alt="success-icon" >
+                    <p>21 ივნ 2025</p>
+                  </div>
+                  <span>თიბისი ბანკის MC ბარათებით სავაჭრო ობიე...</span>
+                  <div class="category">
+                    <img src="./images/RESTAURANT.svg" alt="FAMILY">
+                    <p>რესტორანი, კაფე, ბარი</p>
+                  </div>
+                  <div class="ang">
+                    <p>GE15...0015</p>
+                  </div>
+                  <div class="money-amount">
+                    <span>-117</span>
+                    <p>GEL</p>
+                  </div>
+                </div>
+
+                  <!-- each transaction separately -->
+                <div class="divider-transactions"></div>
+                <div class="each-transaction">
+                  <div class="date">
+                    <img src="./images/success-icon.svg" alt="success-icon" >
+                    <p>21 ივნ 2025</p>
+                  </div>
+                  <span>თიბისი ბანკის MC ბარათებით სავაჭრო ობი...</span>
+                  <div class="category">
+                    <img src="./images/TRANSPORT.svg" alt="FAMILY">
+                    <p>ავტომანქანის ხარჯი</p>
+                  </div>
+                  <div class="ang">
+                    <p>GE15...0015</p>
+                  </div>
+                  <div class="money-amount">
+                    <span>-250</span>
+                    <p>GEL</p>
+                  </div>
+                </div>
+
+                                <!-- each transaction separately -->
+                <div class="divider-transactions"></div>
+                <div class="each-transaction">
+                  <div class="date">
+                    <img src="./images/success-icon.svg" alt="success-icon" >
+                    <p>21 ივნ 2025</p>
+                  </div>
+                  <span>თიბისი ბანკის MC ბარათებით სავაჭრო ობი...</span>
+                  <div class="category">
+                    <img src="./images/FAMILY.svg" alt="FAMILY">
+                    <p>პროდუქტები სახლისთვის</p>
+                  </div>
+                  <div class="ang">
+                    <p>GE14...0051</p>
+                  </div>
+                  <div class="money-amount">
+                    <span>-8.20</span>
+                    <p>GEL</p>
+                  </div>
+                </div>
+          
+                 <!-- each transaction separately -->
+                <div class="divider-transactions"></div>
+                <div class="each-transaction">
+                  <div class="date">
+                    <img src="./images/success-icon.svg" alt="success-icon" >
+                    <p>21 ივნ 2025</p>
+                  </div>
+                  <span>თიბისი ბანკის MC CONCEPT ბარათებით სავ...</span>
+                  <div class="category">
+                    <img src="./images/FAMILY.svg" alt="FAMILY">
+                    <p>პროდუქტები სახლისთვის</p>
+                  </div>
+                  <div class="ang">
+                    <p>GE15...0067</p>
+                  </div>
+                  <div class="money-amount">
+                    <span>-57.98</span>
+                    <p>GEL</p>
+                  </div>
+                </div>
+
+           <!-- each transaction separately -->
+                <div class="divider-transactions"></div>
+                <div class="each-transaction">
+                  <div class="date">
+                    <img src="./images/success-icon.svg" alt="success-icon" >
+                    <p>21 ივნ 2025</p>
+                  </div>
+                  <span>მარიამ სვანიძე პირადი გადარიცხვა თიბის...</span>
+                  <div class="category">
+                    <img src="./images/PAYMENTS.svg" alt="FAMILY">
+                    <p>გადარიცხვები</p>
+                  </div>
+                  <div class="ang">
+                    <p>GE14...0051</p>
+                  </div>
+                  <div class="money-amount">
+                    <span>-200</span>
+                    <p>GEL</p>
+                  </div>
+                </div>
+          
+                 <!-- each transaction separately -->
+                <div class="divider-transactions"></div>
+                <div class="each-transaction">
+                  <div class="date">
+                    <img src="./images/success-icon.svg" alt="success-icon" >
+                    <p>21 ივნ 2025</p>
+                  </div>
+                  <span>სხვა ბანკში გადარიცხვის საკომისიო...</span>
+                  <div class="category">
+                    <img src="./images/BANK_INSURE_TAX.svg" alt="FAMILY">
+                    <p>საკომისიოები</p>
+                  </div>
+                  <div class="ang">
+                    <p>GE15...0067</p>
+                  </div>
+                  <div class="money-amount">
+                    <span>-1.00</span>
+                    <p>GEL</p>
+                  </div>
+                </div>
+          
+                 <!-- each transaction separately -->
+                <div class="divider-transactions"></div>
+                <div class="each-transaction">
+                  <div class="date">
+                    <img src="./images/success-icon.svg" alt="success-icon" >
+                    <p>06 ივლ 2025</p>
+                  </div>
+                  <span>P2P (საბარათე) გადარიცხვების სატრანზიტ...</span>
+                  <div class="category">
+                    <img src="./images/HEALTHCARE.svg" alt="FAMILY">
+                    <p>წამლები</p>
+                  </div>
+                  <div class="ang">
+                    <p>GE15...0067</p>
+                  </div>
+                  <div class="money-amount">
+                    <span>-81,90</span>
+                    <p>GEL</p>
+                  </div>
+                </div>
+          
+                <div class="divider-transactions"></div>
+                <div class="each-transaction">
+                  <div class="date">
+                    <img src="./images/success-icon.svg" alt="success-icon" >
+                    <p>20 ივნ 2025</p>
+                  </div>
+                  <span>TBCBank_ის VISA/MC ბარათებით TBCBank_</span>
+                  <div class="category">
+                    <img src="./images/CASHOUT.svg" alt="FAMILY">
+                    <p>თანხის განაღდება</p>
+                  </div>
+                  <div class="ang">
+                    <p>GE15...0067</p>
+                  </div>
+                  <div class="money-amount">
+                    <span>-800</span>
+                    <p>GEL</p>
+                  </div>
+                </div>
+          
+                 <!-- each transaction separately -->
+                <div class="divider-transactions"></div>
+                <div class="each-transaction">
+                  <div class="date">
+                    <img src="./images/success-icon.svg" alt="success-icon" >
+                    <p>20 ივნ 2025</p>
+                  </div>
+                  <span>მარიამ სვანიძე, პირადი გადარიცხვა თიბისიშ..</span>
+                  <div class="category">
+                    <img src="./images/OTHER_INCOMES.svg" alt="FAMILY">
+                    <p>სხვა შემოსავლები</p>
+                  </div>
+                  <div class="ang">
+                    <p>GE15...0015</p>
+                  </div>
+                  <div class="money-amount">
+                    <span>+500</span>
+                    <p class="income-gel">GEL</p>
+                  </div>
+                </div>
+
+                 <!-- each transaction separately -->
+                <div class="divider-transactions"></div>
+                <div class="each-transaction">
+                  <div class="date">
+                    <img src="./images/success-icon.svg" alt="success-icon" >
+                    <p>20 ივნ 2025</p>
+                  </div>
+                  <span>მარიამ სვანიძე, პირადი გადარიცხვა თიბისიშ..</span>
+                  <div class="category">
+                    <img src="./images/OTHER_INCOMES.svg" alt="FAMILY">
+                    <p>სხვა შემოსავლები</p>
+                  </div>
+                  <div class="ang">
+                    <p>GE15...0015</p>
+                  </div>
+                  <div class="money-amount">
+                    <span>+1200</span>
+                    <p class="income-gel">GEL</p>
+                  </div>
+                </div>
+
+          <!-- each transaction separately -->
+                <div class="divider-transactions"></div>
+                <div class="each-transaction">
+                  <div class="date">
+                    <img src="./images/success-icon.svg" alt="success-icon" >
+                    <p>20 ივნ 2025</p>
+                  </div>
+                  <span>თიბისი ბანკის MC ბარათებით სავაჭრო ობიე...</span>
+                  <div class="category">
+                    <img src="./images/RESTAURANT.svg" alt="FAMILY">
+                    <p>რესტორანი, კაფე, ბარი</p>
+                  </div>
+                  <div class="ang">
+                    <p>GE15...0015</p>
+                  </div>
+                  <div class="money-amount">
+                    <span>117</span>
+                    <p>GEL</p>
+                  </div>
+                </div>
+
+                  <!-- each transaction separately -->
+                <div class="divider-transactions"></div>
+                <div class="each-transaction">
+                  <div class="date">
+                    <img src="./images/success-icon.svg" alt="success-icon" >
+                    <p>04 ივლ 2025</p>
+                  </div>
+                  <span>თიბისი ბანკის MC ბარათებით სავაჭრო ობი...</span>
+                  <div class="category">
+                    <img src="./images/TRANSPORT.svg" alt="FAMILY">
+                    <p>ავტომანქანის ხარჯი</p>
+                  </div>
+                  <div class="ang">
+                    <p>GE15...0015</p>
+                  </div>
+                  <div class="money-amount">
+                    <span>250</span>
+                    <p>GEL</p>
+                  </div>
+                </div>
+
+                                <!-- each transaction separately -->
+                <div class="divider-transactions"></div>
+                <div class="each-transaction">
+                  <div class="date">
+                    <img src="./images/success-icon.svg" alt="success-icon" >
+                    <p>20 ივნ 2025</p>
+                  </div>
+                  <span>თიბისი ბანკის MC ბარათებით სავაჭრო ობი...</span>
+                  <div class="category">
+                    <img src="./images/FAMILY.svg" alt="FAMILY">
+                    <p>პროდუქტები სახლისთვის</p>
+                  </div>
+                  <div class="ang">
+                    <p>GE14...0051</p>
+                  </div>
+                  <div class="money-amount">
+                    <span>-8.20</span>
+                    <p>GEL</p>
+                  </div>
+                </div>
+          
+                 <!-- each transaction separately -->
+                <div class="divider-transactions"></div>
+                <div class="each-transaction">
+                  <div class="date">
+                    <img src="./images/success-icon.svg" alt="success-icon" >
+                    <p>20 ივნ 2025</p>
+                  </div>
+                  <span>თიბისი ბანკის MC CONCEPT ბარათებით სავ...</span>
+                  <div class="category">
+                    <img src="./images/FAMILY.svg" alt="FAMILY">
+                    <p>პროდუქტები სახლისთვის</p>
+                  </div>
+                  <div class="ang">
+                    <p>GE15...0067</p>
+                  </div>
+                  <div class="money-amount">
+                    <span>-57.98</span>
+                    <p>GEL</p>
+                  </div>
+                </div>
+
+           <!-- each transaction separately -->
+                <div class="divider-transactions"></div>
+                <div class="each-transaction">
+                  <div class="date">
+                    <img src="./images/success-icon.svg" alt="success-icon" >
+                    <p>20 ივნ 2025</p>
+                  </div>
+                  <span>მარიამ სვანიძე პირადი გადარიცხვა თიბის...</span>
+                  <div class="category">
+                    <img src="./images/PAYMENTS.svg" alt="FAMILY">
+                    <p>გადარიცხვები</p>
+                  </div>
+                  <div class="ang">
+                    <p>GE14...0051</p>
+                  </div>
+                  <div class="money-amount">
+                    <span>-200</span>
+                    <p>GEL</p>
+                  </div>
+                </div>
+          
+                 <!-- each transaction separately -->
+                <div class="divider-transactions"></div>
+                <div class="each-transaction">
+                  <div class="date">
+                    <img src="./images/success-icon.svg" alt="success-icon" >
+                    <p>19 ივნ 2025</p>
+                  </div>
+                  <span>სხვა ბანკში გადარიცხვის საკომისიო...</span>
+                  <div class="category">
+                    <img src="./images/BANK_INSURE_TAX.svg" alt="FAMILY">
+                    <p>საკომისიოები</p>
+                  </div>
+                  <div class="ang">
+                    <p>GE15...0067</p>
+                  </div>
+                  <div class="money-amount">
+                    <span>-1.00</span>
+                    <p>GEL</p>
+                  </div>
+                </div>
+          
+                 <!-- each transaction separately -->
+                <div class="divider-transactions"></div>
+                <div class="each-transaction">
+                  <div class="date">
+                    <img src="./images/success-icon.svg" alt="success-icon" >
+                    <p>19 ივნ 2025</p>
+                  </div>
+                  <span>P2P (საბარათე) გადარიცხვების სატრანზიტ...</span>
+                  <div class="category">
+                    <img src="./images/HEALTHCARE.svg" alt="FAMILY">
+                    <p>წამლები</p>
+                  </div>
+                  <div class="ang">
+                    <p>GE15...0067</p>
+                  </div>
+                  <div class="money-amount">
+                    <span>-81,90</span>
+                    <p>GEL</p>
+                  </div>
+                </div>
+          
+                <div class="divider-transactions"></div>
+                <div class="each-transaction">
+                  <div class="date">
+                    <img src="./images/success-icon.svg" alt="success-icon" >
+                    <p>19 ივნ 2025</p>
+                  </div>
+                  <span>TBCBank_ის VISA/MC ბარათებით TBCBank_</span>
+                  <div class="category">
+                    <img src="./images/CASHOUT.svg" alt="FAMILY">
+                    <p>თანხის განაღდება</p>
+                  </div>
+                  <div class="ang">
+                    <p>GE15...0067</p>
+                  </div>
+                  <div class="money-amount">
+                    <span>-800</span>
+                    <p>GEL</p>
+                  </div>
+                </div>
+          
+                 <!-- each transaction separately -->
+                <div class="divider-transactions"></div>
+                <div class="each-transaction">
+                  <div class="date">
+                    <img src="./images/success-icon.svg" alt="success-icon" >
+                    <p>19 ივნ 2025</p>
+                  </div>
+                  <span>მარიამ სვანიძე, პირადი გადარიცხვა თიბისიშ..</span>
+                  <div class="category">
+                    <img src="./images/OTHER_INCOMES.svg" alt="FAMILY">
+                    <p>სხვა შემოსავლები</p>
+                  </div>
+                  <div class="ang">
+                    <p>GE15...0015</p>
+                  </div>
+                  <div class="money-amount">
+                    <span>+500</span>
+                    <p class="income-gel">GEL</p>
+                  </div>
+                </div>
+
+                 <!-- each transaction separately -->
+                <div class="divider-transactions"></div>
+                <div class="each-transaction">
+                  <div class="date">
+                    <img src="./images/success-icon.svg" alt="success-icon" >
+                    <p>19 ივნ 2025</p>
+                  </div>
+                  <span>მარიამ სვანიძე, პირადი გადარიცხვა თიბისიშ..</span>
+                  <div class="category">
+                    <img src="./images/OTHER_INCOMES.svg" alt="FAMILY">
+                    <p>სხვა შემოსავლები</p>
+                  </div>
+                  <div class="ang">
+                    <p>GE15...0015</p>
+                  </div>
+                  <div class="money-amount">
+                    <span>+1200</span>
+                    <p class="income-gel">GEL</p>
+                  </div>
+                </div>
+
+          <!-- each transaction separately -->
+                <div class="divider-transactions"></div>
+                <div class="each-transaction">
+                  <div class="date">
+                    <img src="./images/success-icon.svg" alt="success-icon" >
+                    <p>19 ივნ 2025</p>
+                  </div>
+                  <span>თიბისი ბანკის MC ბარათებით სავაჭრო ობიე...</span>
+                  <div class="category">
+                    <img src="./images/RESTAURANT.svg" alt="FAMILY">
+                    <p>რესტორანი, კაფე, ბარი</p>
+                  </div>
+                  <div class="ang">
+                    <p>GE15...0015</p>
+                  </div>
+                  <div class="money-amount">
+                    <span>117</span>
+                    <p>GEL</p>
+                  </div>
+                </div>
+
+                  <!-- each transaction separately -->
+                <div class="divider-transactions"></div>
+                <div class="each-transaction">
+                  <div class="date">
+                    <img src="./images/success-icon.svg" alt="success-icon" >
+                    <p>04 ივლ 2025</p>
+                  </div>
+                  <span>თიბისი ბანკის MC ბარათებით სავაჭრო ობი...</span>
+                  <div class="category">
+                    <img src="./images/TRANSPORT.svg" alt="FAMILY">
+                    <p>ავტომანქანის ხარჯი</p>
+                  </div>
+                  <div class="ang">
+                    <p>GE15...0015</p>
+                  </div>
+                  <div class="money-amount">
+                    <span>250</span>
+                    <p>GEL</p>
+                  </div>
+                </div>
+
+                                <!-- each transaction separately -->
+                <div class="divider-transactions"></div>
+                <div class="each-transaction">
+                  <div class="date">
+                    <img src="./images/success-icon.svg" alt="success-icon" >
+                    <p>19 ივნ 2025</p>
+                  </div>
+                  <span>თიბისი ბანკის MC ბარათებით სავაჭრო ობი...</span>
+                  <div class="category">
+                    <img src="./images/FAMILY.svg" alt="FAMILY">
+                    <p>პროდუქტები სახლისთვის</p>
+                  </div>
+                  <div class="ang">
+                    <p>GE14...0051</p>
+                  </div>
+                  <div class="money-amount">
+                    <span>-8.20</span>
+                    <p>GEL</p>
+                  </div>
+                </div>
+          
+                 <!-- each transaction separately -->
+                <div class="divider-transactions"></div>
+                <div class="each-transaction">
+                  <div class="date">
+                    <img src="./images/success-icon.svg" alt="success-icon" >
+                    <p>19 ივნ 2025</p>
+                  </div>
+                  <span>თიბისი ბანკის MC CONCEPT ბარათებით სავ...</span>
+                  <div class="category">
+                    <img src="./images/FAMILY.svg" alt="FAMILY">
+                    <p>პროდუქტები სახლისთვის</p>
+                  </div>
+                  <div class="ang">
+                    <p>GE15...0067</p>
+                  </div>
+                  <div class="money-amount">
+                    <span>-57.98</span>
+                    <p>GEL</p>
+                  </div>
+                </div>
+
+           <!-- each transaction separately -->
+                <div class="divider-transactions"></div>
+                <div class="each-transaction">
+                  <div class="date">
+                    <img src="./images/success-icon.svg" alt="success-icon" >
+                    <p>19 ივნ 2025</p>
+                  </div>
+                  <span>მარიამ სვანიძე პირადი გადარიცხვა თიბის...</span>
+                  <div class="category">
+                    <img src="./images/PAYMENTS.svg" alt="FAMILY">
+                    <p>გადარიცხვები</p>
+                  </div>
+                  <div class="ang">
+                    <p>GE14...0051</p>
+                  </div>
+                  <div class="money-amount">
+                    <span>-200</span>
+                    <p>GEL</p>
+                  </div>
+                </div>
+          
+                 <!-- each transaction separately -->
+                <div class="divider-transactions"></div>
+                <div class="each-transaction">
+                  <div class="date">
+                    <img src="./images/success-icon.svg" alt="success-icon" >
+                    <p>19 ივნ 2025</p>
+                  </div>
+                  <span>სხვა ბანკში გადარიცხვის საკომისიო...</span>
+                  <div class="category">
+                    <img src="./images/BANK_INSURE_TAX.svg" alt="FAMILY">
+                    <p>საკომისიოები</p>
+                  </div>
+                  <div class="ang">
+                    <p>GE15...0067</p>
+                  </div>
+                  <div class="money-amount">
+                    <span>-1.00</span>
+                    <p>GEL</p>
+                  </div>
+                </div>
+          
+                 <!-- each transaction separately -->
+                <div class="divider-transactions"></div>
+                <div class="each-transaction">
+                  <div class="date">
+                    <img src="./images/success-icon.svg" alt="success-icon" >
+                    <p>06 ივლ 2025</p>
+                  </div>
+                  <span>P2P (საბარათე) გადარიცხვების სატრანზიტ...</span>
+                  <div class="category">
+                    <img src="./images/HEALTHCARE.svg" alt="FAMILY">
+                    <p>წამლები</p>
+                  </div>
+                  <div class="ang">
+                    <p>GE15...0067</p>
+                  </div>
+                  <div class="money-amount">
+                    <span>-81,90</span>
+                    <p>GEL</p>
+                  </div>
+                </div>
+          
+                <div class="divider-transactions"></div>
+                <div class="each-transaction">
+                  <div class="date">
+                    <img src="./images/success-icon.svg" alt="success-icon" >
+                    <p>19 ივნ 2025</p>
+                  </div>
+                  <span>TBCBank_ის VISA/MC ბარათებით TBCBank_</span>
+                  <div class="category">
+                    <img src="./images/CASHOUT.svg" alt="FAMILY">
+                    <p>თანხის განაღდება</p>
+                  </div>
+                  <div class="ang">
+                    <p>GE15...0067</p>
+                  </div>
+                  <div class="money-amount">
+                    <span>-800</span>
+                    <p>GEL</p>
+                  </div>
+                </div>
+          
+                 <!-- each transaction separately -->
+                <div class="divider-transactions"></div>
+                <div class="each-transaction">
+                  <div class="date">
+                    <img src="./images/success-icon.svg" alt="success-icon" >
+                    <p>05 ივლ 2025</p>
+                  </div>
+                  <span>მარიამ სვანიძე, პირადი გადარიცხვა თიბისიშ..</span>
+                  <div class="category">
+                    <img src="./images/OTHER_INCOMES.svg" alt="FAMILY">
+                    <p>სხვა შემოსავლები</p>
+                  </div>
+                  <div class="ang">
+                    <p>GE15...0015</p>
+                  </div>
+                  <div class="money-amount">
+                    <span>+500</span>
+                    <p class="income-gel">GEL</p>
+                  </div>
+                </div>
+
+                 <!-- each transaction separately -->
+                <div class="divider-transactions"></div>
+                <div class="each-transaction">
+                  <div class="date">
+                    <img src="./images/success-icon.svg" alt="success-icon" >
+                    <p>19 ივნ 2025</p>
+                  </div>
+                  <span>მარიამ სვანიძე, პირადი გადარიცხვა თიბისიშ..</span>
+                  <div class="category">
+                    <img src="./images/OTHER_INCOMES.svg" alt="FAMILY">
+                    <p>სხვა შემოსავლები</p>
+                  </div>
+                  <div class="ang">
+                    <p>GE15...0015</p>
+                  </div>
+                  <div class="money-amount">
+                    <span>+1200</span>
+                    <p class="income-gel">GEL</p>
+                  </div>
+                </div>
+
+          <!-- each transaction separately -->
+                <div class="divider-transactions"></div>
+                <div class="each-transaction">
+                  <div class="date">
+                    <img src="./images/success-icon.svg" alt="success-icon" >
+                    <p>19 ივნ 2025</p>
+                  </div>
+                  <span>თიბისი ბანკის MC ბარათებით სავაჭრო ობიე...</span>
+                  <div class="category">
+                    <img src="./images/RESTAURANT.svg" alt="FAMILY">
+                    <p>რესტორანი, კაფე, ბარი</p>
+                  </div>
+                  <div class="ang">
+                    <p>GE15...0015</p>
+                  </div>
+                  <div class="money-amount">
+                    <span>117</span>
+                    <p>GEL</p>
+                  </div>
+                </div>
+
+                  <!-- each transaction separately -->
+                <div class="divider-transactions"></div>
+                <div class="each-transaction">
+                  <div class="date">
+                    <img src="./images/success-icon.svg" alt="success-icon" >
+                    <p>19 ივნ 2025</p>
+                  </div>
+                  <span>თიბისი ბანკის MC ბარათებით სავაჭრო ობი...</span>
+                  <div class="category">
+                    <img src="./images/TRANSPORT.svg" alt="FAMILY">
+                    <p>ავტომანქანის ხარჯი</p>
+                  </div>
+                  <div class="ang">
+                    <p>GE15...0015</p>
+                  </div>
+                  <div class="money-amount">
+                    <span>250</span>
+                    <p>GEL</p>
+                  </div>
+                </div>
+
+                                <!-- each transaction separately -->
+                <div class="divider-transactions"></div>
+                <div class="each-transaction">
+                  <div class="date">
+                    <img src="./images/success-icon.svg" alt="success-icon" >
+                    <p>18 ივნ 2025</p>
+                  </div>
+                  <span>თიბისი ბანკის MC ბარათებით სავაჭრო ობი...</span>
+                  <div class="category">
+                    <img src="./images/FAMILY.svg" alt="FAMILY">
+                    <p>პროდუქტები სახლისთვის</p>
+                  </div>
+                  <div class="ang">
+                    <p>GE14...0051</p>
+                  </div>
+                  <div class="money-amount">
+                    <span>-8.20</span>
+                    <p>GEL</p>
+                  </div>
+                </div>
+          
+                 <!-- each transaction separately -->
+                <div class="divider-transactions"></div>
+                <div class="each-transaction">
+                  <div class="date">
+                    <img src="./images/success-icon.svg" alt="success-icon" >
+                    <p>18 ივნ 2025</p>
+                  </div>
+                  <span>თიბისი ბანკის MC CONCEPT ბარათებით სავ...</span>
+                  <div class="category">
+                    <img src="./images/FAMILY.svg" alt="FAMILY">
+                    <p>პროდუქტები სახლისთვის</p>
+                  </div>
+                  <div class="ang">
+                    <p>GE15...0067</p>
+                  </div>
+                  <div class="money-amount">
+                    <span>-57.98</span>
+                    <p>GEL</p>
+                  </div>
+                </div>
+
+           <!-- each transaction separately -->
+                <div class="divider-transactions"></div>
+                <div class="each-transaction">
+                  <div class="date">
+                    <img src="./images/success-icon.svg" alt="success-icon" >
+                    <p>18 ივნ 2025</p>
+                  </div>
+                  <span>მარიამ სვანიძე პირადი გადარიცხვა თიბის...</span>
+                  <div class="category">
+                    <img src="./images/PAYMENTS.svg" alt="FAMILY">
+                    <p>გადარიცხვები</p>
+                  </div>
+                  <div class="ang">
+                    <p>GE14...0051</p>
+                  </div>
+                  <div class="money-amount">
+                    <span>-200</span>
+                    <p>GEL</p>
+                  </div>
+                </div>
+          
+                 <!-- each transaction separately -->
+                <div class="divider-transactions"></div>
+                <div class="each-transaction">
+                  <div class="date">
+                    <img src="./images/success-icon.svg" alt="success-icon" >
+                    <p>06 ივლ 2025</p>
+                  </div>
+                  <span>სხვა ბანკში გადარიცხვის საკომისიო...</span>
+                  <div class="category">
+                    <img src="./images/BANK_INSURE_TAX.svg" alt="FAMILY">
+                    <p>საკომისიოები</p>
+                  </div>
+                  <div class="ang">
+                    <p>GE15...0067</p>
+                  </div>
+                  <div class="money-amount">
+                    <span>-1.00</span>
+                    <p>GEL</p>
+                  </div>
+                </div>
+          
+                 <!-- each transaction separately -->
+                <div class="divider-transactions"></div>
+                <div class="each-transaction">
+                  <div class="date">
+                    <img src="./images/success-icon.svg" alt="success-icon" >
+                    <p>18 ივნ 2025</p>
+                  </div>
+                  <span>P2P (საბარათე) გადარიცხვების სატრანზიტ...</span>
+                  <div class="category">
+                    <img src="./images/HEALTHCARE.svg" alt="FAMILY">
+                    <p>წამლები</p>
+                  </div>
+                  <div class="ang">
+                    <p>GE15...0067</p>
+                  </div>
+                  <div class="money-amount">
+                    <span>-81,90</span>
+                    <p>GEL</p>
+                  </div>
+                </div>
+          
+                <div class="divider-transactions"></div>
+                <div class="each-transaction">
+                  <div class="date">
+                    <img src="./images/success-icon.svg" alt="success-icon" >
+                    <p>18 ივნ 2025</p>
+                  </div>
+                  <span>TBCBank_ის VISA/MC ბარათებით TBCBank_</span>
+                  <div class="category">
+                    <img src="./images/CASHOUT.svg" alt="FAMILY">
+                    <p>თანხის განაღდება</p>
+                  </div>
+                  <div class="ang">
+                    <p>GE15...0067</p>
+                  </div>
+                  <div class="money-amount">
+                    <span>-800</span>
+                    <p>GEL</p>
+                  </div>
+                </div>
+          
+                 <!-- each transaction separately -->
+                <div class="divider-transactions"></div>
+                <div class="each-transaction">
+                  <div class="date">
+                    <img src="./images/success-icon.svg" alt="success-icon" >
+                    <p>18 ივნ 2025</p>
+                  </div>
+                  <span>მარიამ სვანიძე, პირადი გადარიცხვა თიბისიშ..</span>
+                  <div class="category">
+                    <img src="./images/OTHER_INCOMES.svg" alt="FAMILY">
+                    <p>სხვა შემოსავლები</p>
+                  </div>
+                  <div class="ang">
+                    <p>GE15...0015</p>
+                  </div>
+                  <div class="money-amount">
+                    <span>+500</span>
+                    <p class="income-gel">GEL</p>
+                  </div>
+                </div>
+
+                 <!-- each transaction separately -->
+                <div class="divider-transactions"></div>
+                <div class="each-transaction">
+                  <div class="date">
+                    <img src="./images/success-icon.svg" alt="success-icon" >
+                    <p>18 ივნ 2025</p>
+                  </div>
+                  <span>მარიამ სვანიძე, პირადი გადარიცხვა თიბისიშ..</span>
+                  <div class="category">
+                    <img src="./images/OTHER_INCOMES.svg" alt="FAMILY">
+                    <p>სხვა შემოსავლები</p>
+                  </div>
+                  <div class="ang">
+                    <p>GE15...0015</p>
+                  </div>
+                  <div class="money-amount">
+                    <span>+1200</span>
+                    <p class="income-gel">GEL</p>
+                  </div>
+                </div>
+
+          <!-- each transaction separately -->
+                <div class="divider-transactions"></div>
+                <div class="each-transaction">
+                  <div class="date">
+                    <img src="./images/success-icon.svg" alt="success-icon" >
+                    <p>17 ივნ 2025</p>
+                  </div>
+                  <span>თიბისი ბანკის MC ბარათებით სავაჭრო ობიე...</span>
+                  <div class="category">
+                    <img src="./images/RESTAURANT.svg" alt="FAMILY">
+                    <p>რესტორანი, კაფე, ბარი</p>
+                  </div>
+                  <div class="ang">
+                    <p>GE15...0015</p>
+                  </div>
+                  <div class="money-amount">
+                    <span>-117</span>
+                    <p>GEL</p>
+                  </div>
+                </div>
+
+                  <!-- each transaction separately -->
+                <div class="divider-transactions"></div>
+                <div class="each-transaction">
+                  <div class="date">
+                    <img src="./images/success-icon.svg" alt="success-icon" >
+                    <p>17 ივნ 2025</p>
+                  </div>
+                  <span>თიბისი ბანკის MC ბარათებით სავაჭრო ობი...</span>
+                  <div class="category">
+                    <img src="./images/TRANSPORT.svg" alt="FAMILY">
+                    <p>ავტომანქანის ხარჯი</p>
+                  </div>
+                  <div class="ang">
+                    <p>GE15...0015</p>
+                  </div>
+                  <div class="money-amount">
+                    <span>250</span>
+                    <p>GEL</p>
+                  </div>
+                </div>
+
+                                <!-- each transaction separately -->
+                <div class="divider-transactions"></div>
+                <div class="each-transaction">
+                  <div class="date">
+                    <img src="./images/success-icon.svg" alt="success-icon" >
+                    <p>17 ივნ 2025</p>
+                  </div>
+                  <span>თიბისი ბანკის MC ბარათებით სავაჭრო ობი...</span>
+                  <div class="category">
+                    <img src="./images/FAMILY.svg" alt="FAMILY">
+                    <p>პროდუქტები სახლისთვის</p>
+                  </div>
+                  <div class="ang">
+                    <p>GE14...0051</p>
+                  </div>
+                  <div class="money-amount">
+                    <span>-8.20</span>
+                    <p>GEL</p>
+                  </div>
+                </div>
+          
+                 <!-- each transaction separately -->
+                <div class="divider-transactions"></div>
+                <div class="each-transaction">
+                  <div class="date">
+                    <img src="./images/success-icon.svg" alt="success-icon" >
+                    <p>17 ივნ 2025</p>
+                  </div>
+                  <span>თიბისი ბანკის MC CONCEPT ბარათებით სავ...</span>
+                  <div class="category">
+                    <img src="./images/FAMILY.svg" alt="FAMILY">
+                    <p>პროდუქტები სახლისთვის</p>
+                  </div>
+                  <div class="ang">
+                    <p>GE15...0067</p>
+                  </div>
+                  <div class="money-amount">
+                    <span>-57.98</span>
+                    <p>GEL</p>
+                  </div>
+                </div>
+
+           <!-- each transaction separately -->
+                <div class="divider-transactions"></div>
+                <div class="each-transaction">
+                  <div class="date">
+                    <img src="./images/success-icon.svg" alt="success-icon" >
+                    <p>17 ივნ 2025</p>
+                  </div>
+                  <span>მარიამ სვანიძე პირადი გადარიცხვა თიბის...</span>
+                  <div class="category">
+                    <img src="./images/PAYMENTS.svg" alt="FAMILY">
+                    <p>გადარიცხვები</p>
+                  </div>
+                  <div class="ang">
+                    <p>GE14...0051</p>
+                  </div>
+                  <div class="money-amount">
+                    <span>-200</span>
+                    <p>GEL</p>
+                  </div>
+                </div>
+          
+                 <!-- each transaction separately -->
+                <div class="divider-transactions"></div>
+                <div class="each-transaction">
+                  <div class="date">
+                    <img src="./images/success-icon.svg" alt="success-icon" >
+                    <p>16 ივნ 2025</p>
+                  </div>
+                  <span>სხვა ბანკში გადარიცხვის საკომისიო...</span>
+                  <div class="category">
+                    <img src="./images/BANK_INSURE_TAX.svg" alt="FAMILY">
+                    <p>საკომისიოები</p>
+                  </div>
+                  <div class="ang">
+                    <p>GE15...0067</p>
+                  </div>
+                  <div class="money-amount">
+                    <span>-1.00</span>
+                    <p>GEL</p>
+                  </div>
+                </div>
+          
+                 <!-- each transaction separately -->
+                <div class="divider-transactions"></div>
+                <div class="each-transaction">
+                  <div class="date">
+                    <img src="./images/success-icon.svg" alt="success-icon" >
+                    <p>16 ივნ 2025</p>
+                  </div>
+                  <span>P2P (საბარათე) გადარიცხვების სატრანზიტ...</span>
+                  <div class="category">
+                    <img src="./images/HEALTHCARE.svg" alt="FAMILY">
+                    <p>წამლები</p>
+                  </div>
+                  <div class="ang">
+                    <p>GE15...0067</p>
+                  </div>
+                  <div class="money-amount">
+                    <span>-81,90</span>
+                    <p>GEL</p>
+                  </div>
+                </div>
+          
+                <div class="divider-transactions"></div>
+                <div class="each-transaction">
+                  <div class="date">
+                    <img src="./images/success-icon.svg" alt="success-icon" >
+                    <p>16 ივნ 2025</p>
+                  </div>
+                  <span>TBCBank_ის VISA/MC ბარათებით TBCBank_</span>
+                  <div class="category">
+                    <img src="./images/CASHOUT.svg" alt="FAMILY">
+                    <p>თანხის განაღდება</p>
+                  </div>
+                  <div class="ang">
+                    <p>GE15...0067</p>
+                  </div>
+                  <div class="money-amount">
+                    <span>-800</span>
+                    <p>GEL</p>
+                  </div>
+                </div>
+          
+                 <!-- each transaction separately -->
+                <div class="divider-transactions"></div>
+                <div class="each-transaction">
+                  <div class="date">
+                    <img src="./images/success-icon.svg" alt="success-icon" >
+                    <p>16 ივნ 2025</p>
+                  </div>
+                  <span>მარიამ სვანიძე, პირადი გადარიცხვა თიბისიშ..</span>
+                  <div class="category">
+                    <img src="./images/OTHER_INCOMES.svg" alt="FAMILY">
+                    <p>სხვა შემოსავლები</p>
+                  </div>
+                  <div class="ang">
+                    <p>GE15...0015</p>
+                  </div>
+                  <div class="money-amount">
+                    <span>+500</span>
+                    <p class="income-gel">GEL</p>
+                  </div>
+                </div>
+
+                 <!-- each transaction separately -->
+                <div class="divider-transactions"></div>
+                <div class="each-transaction">
+                  <div class="date">
+                    <img src="./images/success-icon.svg" alt="success-icon" >
+                    <p>16 ივნ 2025</p>
+                  </div>
+                  <span>მარიამ სვანიძე, პირადი გადარიცხვა თიბისიშ..</span>
+                  <div class="category">
+                    <img src="./images/OTHER_INCOMES.svg" alt="FAMILY">
+                    <p>სხვა შემოსავლები</p>
+                  </div>
+                  <div class="ang">
+                    <p>GE15...0015</p>
+                  </div>
+                  <div class="money-amount">
+                    <span>+1200</span>
+                    <p class="income-gel">GEL</p>
+                  </div>
+                </div>
+
+          <!-- each transaction separately -->
+                <div class="divider-transactions"></div>
+                <div class="each-transaction">
+                  <div class="date">
+                    <img src="./images/success-icon.svg" alt="success-icon" >
+                    <p>16 ივნ 2025</p>
+                  </div>
+                  <span>თიბისი ბანკის MC ბარათებით სავაჭრო ობიე...</span>
+                  <div class="category">
+                    <img src="./images/RESTAURANT.svg" alt="FAMILY">
+                    <p>რესტორანი, კაფე, ბარი</p>
+                  </div>
+                  <div class="ang">
+                    <p>GE15...0015</p>
+                  </div>
+                  <div class="money-amount">
+                    <span>117</span>
+                    <p>GEL</p>
+                  </div>
+                </div>
+
+                  <!-- each transaction separately -->
+                <div class="divider-transactions"></div>
+                <div class="each-transaction">
+                  <div class="date">
+                    <img src="./images/success-icon.svg" alt="success-icon" >
+                    <p>16 ივნ 2025</p>
+                  </div>
+                  <span>თიბისი ბანკის MC ბარათებით სავაჭრო ობი...</span>
+                  <div class="category">
+                    <img src="./images/TRANSPORT.svg" alt="FAMILY">
+                    <p>ავტომანქანის ხარჯი</p>
+                  </div>
+                  <div class="ang">
+                    <p>GE15...0015</p>
+                  </div>
+                  <div class="money-amount">
+                    <span>250</span>
+                    <p>GEL</p>
+                  </div>
+                </div>
+
+                                <!-- each transaction separately -->
+                <div class="divider-transactions"></div>
+                <div class="each-transaction">
+                  <div class="date">
+                    <img src="./images/success-icon.svg" alt="success-icon" >
+                    <p>16 ივნ 2025</p>
+                  </div>
+                  <span>თიბისი ბანკის MC ბარათებით სავაჭრო ობი...</span>
+                  <div class="category">
+                    <img src="./images/FAMILY.svg" alt="FAMILY">
+                    <p>პროდუქტები სახლისთვის</p>
+                  </div>
+                  <div class="ang">
+                    <p>GE14...0051</p>
+                  </div>
+                  <div class="money-amount">
+                    <span>-8.20</span>
+                    <p>GEL</p>
+                  </div>
+                </div>
+          
+                 <!-- each transaction separately -->
+                <div class="divider-transactions"></div>
+                <div class="each-transaction">
+                  <div class="date">
+                    <img src="./images/success-icon.svg" alt="success-icon" >
+                    <p>16 ივნ 2025</p>
+                  </div>
+                  <span>თიბისი ბანკის MC CONCEPT ბარათებით სავ...</span>
+                  <div class="category">
+                    <img src="./images/FAMILY.svg" alt="FAMILY">
+                    <p>პროდუქტები სახლისთვის</p>
+                  </div>
+                  <div class="ang">
+                    <p>GE15...0067</p>
+                  </div>
+                  <div class="money-amount">
+                    <span>-57.98</span>
+                    <p>GEL</p>
+                  </div>
+                </div>
+
+           <!-- each transaction separately -->
+                <div class="divider-transactions"></div>
+                <div class="each-transaction">
+                  <div class="date">
+                    <img src="./images/success-icon.svg" alt="success-icon" >
+                    <p>15 ივნ 2025</p>
+                  </div>
+                  <span>მარიამ სვანიძე პირადი გადარიცხვა თიბის...</span>
+                  <div class="category">
+                    <img src="./images/PAYMENTS.svg" alt="FAMILY">
+                    <p>გადარიცხვები</p>
+                  </div>
+                  <div class="ang">
+                    <p>GE14...0051</p>
+                  </div>
+                  <div class="money-amount">
+                    <span>-200</span>
+                    <p>GEL</p>
+                  </div>
+                </div>
+          
+                 <!-- each transaction separately -->
+                <div class="divider-transactions"></div>
+                <div class="each-transaction">
+                  <div class="date">
+                    <img src="./images/success-icon.svg" alt="success-icon" >
+                    <p>15 ივნ 2025</p>
+                  </div>
+                  <span>სხვა ბანკში გადარიცხვის საკომისიო...</span>
+                  <div class="category">
+                    <img src="./images/BANK_INSURE_TAX.svg" alt="FAMILY">
+                    <p>საკომისიოები</p>
+                  </div>
+                  <div class="ang">
+                    <p>GE15...0067</p>
+                  </div>
+                  <div class="money-amount">
+                    <span>-1.00</span>
+                    <p>GEL</p>
+                  </div>
+                </div>
+          
+                 <!-- each transaction separately -->
+                <div class="divider-transactions"></div>
+                <div class="each-transaction">
+                  <div class="date">
+                    <img src="./images/success-icon.svg" alt="success-icon" >
+                    <p>15 ივნ 2025</p>
+                  </div>
+                  <span>P2P (საბარათე) გადარიცხვების სატრანზიტ...</span>
+                  <div class="category">
+                    <img src="./images/HEALTHCARE.svg" alt="FAMILY">
+                    <p>წამლები</p>
+                  </div>
+                  <div class="ang">
+                    <p>GE15...0067</p>
+                  </div>
+                  <div class="money-amount">
+                    <span>-81,90</span>
+                    <p>GEL</p>
+                  </div>
+                </div>
+          
+                <div class="divider-transactions"></div>
+                <div class="each-transaction">
+                  <div class="date">
+                    <img src="./images/success-icon.svg" alt="success-icon" >
+                    <p>15 ივნ 2025</p>
+                  </div>
+                  <span>TBCBank_ის VISA/MC ბარათებით TBCBank_</span>
+                  <div class="category">
+                    <img src="./images/CASHOUT.svg" alt="FAMILY">
+                    <p>თანხის განაღდება</p>
+                  </div>
+                  <div class="ang">
+                    <p>GE15...0067</p>
+                  </div>
+                  <div class="money-amount">
+                    <span>-800</span>
+                    <p>GEL</p>
+                  </div>
+                </div>
+          
+                 <!-- each transaction separately -->
+                <div class="divider-transactions"></div>
+                <div class="each-transaction">
+                  <div class="date">
+                    <img src="./images/success-icon.svg" alt="success-icon" >
+                    <p>15 ივნ 2025</p>
+                  </div>
+                  <span>მარიამ სვანიძე, პირადი გადარიცხვა თიბისიშ..</span>
+                  <div class="category">
+                    <img src="./images/OTHER_INCOMES.svg" alt="FAMILY">
+                    <p>სხვა შემოსავლები</p>
+                  </div>
+                  <div class="ang">
+                    <p>GE15...0015</p>
+                  </div>
+                  <div class="money-amount">
+                    <span>+500</span>
+                    <p class="income-gel">GEL</p>
+                  </div>
+                </div>
+
+                 <!-- each transaction separately -->
+                <div class="divider-transactions"></div>
+                <div class="each-transaction">
+                  <div class="date">
+                    <img src="./images/success-icon.svg" alt="success-icon" >
+                    <p>15 ივნ 2025</p>
+                  </div>
+                  <span>მარიამ სვანიძე, პირადი გადარიცხვა თიბისიშ..</span>
+                  <div class="category">
+                    <img src="./images/OTHER_INCOMES.svg" alt="FAMILY">
+                    <p>სხვა შემოსავლები</p>
+                  </div>
+                  <div class="ang">
+                    <p>GE15...0015</p>
+                  </div>
+                  <div class="money-amount">
+                    <span>+1200</span>
+                    <p class="income-gel">GEL</p>
+                  </div>
+                </div>
+
+          <!-- each transaction separately -->
+                <div class="divider-transactions"></div>
+                <div class="each-transaction">
+                  <div class="date">
+                    <img src="./images/success-icon.svg" alt="success-icon" >
+                    <p>15 ივნ 2025</p>
+                  </div>
+                  <span>თიბისი ბანკის MC ბარათებით სავაჭრო ობიე...</span>
+                  <div class="category">
+                    <img src="./images/RESTAURANT.svg" alt="FAMILY">
+                    <p>რესტორანი, კაფე, ბარი</p>
+                  </div>
+                  <div class="ang">
+                    <p>GE15...0015</p>
+                  </div>
+                  <div class="money-amount">
+                    <span>117</span>
+                    <p>GEL</p>
+                  </div>
+                </div>
+
+                  <!-- each transaction separately -->
+                <div class="divider-transactions"></div>
+                <div class="each-transaction">
+                  <div class="date">
+                    <img src="./images/success-icon.svg" alt="success-icon" >
+                    <p>15 ივნ 2025</p>
+                  </div>
+                  <span>თიბისი ბანკის MC ბარათებით სავაჭრო ობი...</span>
+                  <div class="category">
+                    <img src="./images/TRANSPORT.svg" alt="FAMILY">
+                    <p>ავტომანქანის ხარჯი</p>
+                  </div>
+                  <div class="ang">
+                    <p>GE15...0015</p>
+                  </div>
+                  <div class="money-amount">
+                    <span>250</span>
+                    <p>GEL</p>
+                  </div>
+                </div>
+
+              </div>
+         
+            <!-- mobile version dashboard -->
+ 
+                <nav class="mobile-bar-wrapper">
+    <a href="./dashboard.html"><img src="./images/mobile-icons/home-outlined.svg" alt="home-outlined"></a>
+    <a href="/error.html"><img src="./images/mobile-icons/layers-outlined.svg" alt="layers-outlined"></a>
+    <a href="/error.html"><img src="./images/mobile-icons/swap-alt-outlined.svg" alt="swap-outlined"></a>
+    <a href="./transactions.html"><img src="./images/mobile-icons/file-outlined.svg" alt="file-outlined"></a>
+    <a href="./error.html"><img src="./images/mobile-icons/chart-pie-sep-outlined.svg" alt="chart-pie-sep-outlined"></a>
+    <a href="./error.html"><img src="./images/mobile-icons/coupon-outlined.svg" alt="coupon-outlined"></a>           
+                </nav>
+
+          </main>
+              
+          <footer>
+            <div class="footer-container">
+              <p>© 2025 თიბისი ბანკი • ყველა უფლება დაცულია</p>
+              <nav class="footer-links">
+                <a href="#">კონტაქტი</a>
+                <a href="#">წესები და პირობები</a>
+                <a href="#">კონფიდენციალურობა</a>
+              </nav>
+            </div>
+          </footer>
+  </div>
+</body>
+</html>
