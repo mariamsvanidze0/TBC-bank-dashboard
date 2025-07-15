@@ -19,7 +19,7 @@ A responsive and modern banking dashboard interface designed to display a user's
 ## 📷 Screenshots
 
 ### 💻 Desktop View
-![Desktop Screenshot](./images/screenshots/mainpage.png)
+![display](./images/screenshots/mainpage.png)
 ### 💻 Desktop View
 ![Desktop Screenshot](./images/screenshots/dashboard.png)
 ### 💻 Desktop View
