@@ -19,14 +19,14 @@ A responsive and modern banking dashboard interface designed to display a user's
 ## 📷 Screenshots
 
 ### 💻 Desktop View
-![display](./images/screenshots/mainpage.png)
+![Desktop Screenshot](./images/screenshoots/mainpage.png)
 ### 💻 Desktop View
-![Desktop Screenshot](./images/screenshots/dashboard.png)
+![Desktop Screenshot](./images/screenshoots/dashboard.png)
 ### 💻 Desktop View
-![Desktop Screenshot](./images/screenshots/transactions.png)
+![Desktop Screenshot](./images/screenshoots/transactions.png)
 
 ### 📱 Mobile View
-![Mobile Screenshot](./images/screenshots/mobileDash.png)
+![Mobile Screenshot](./images/screenshoots/mobileDash.png)
 
 
 ## 📁 Folder Structure
