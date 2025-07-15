@@ -22,25 +22,15 @@ A responsive and modern banking dashboard interface designed to display a user's
 ![Desktop Screenshot](./images/screenshoots/mainpage.png)
 ### 💻 Desktop View
 ![Desktop Screenshot](./images/screenshoots/dashboard.png)
+### 💻 Desktop View Dark Mode
+![Desktop Screenshot](./images/screenshoots/darkDashboard.png)
 ### 💻 Desktop View
 ![Desktop Screenshot](./images/screenshoots/transactions.png)
+
 
 ### 📱 Mobile View
 ![Mobile Screenshot](./images/screenshoots/mobileDash.png)
 
-
-## 📁 Folder Structure
-project-root/
-│
-├── index.html # Landing page (optional)
-├── transactions.html # Main transaction page
-├── styles/
-│ └── transactions.css # CSS file for layout and dark mode
-├── images/
-│ ├── tbcge-logo.svg # Bank logo
-│ ├── icons/ # All SVG icons (categories, nav, etc.)
-│ └── portrait.jpg # User portrait
-└── README.md # You're here!
 
 ## 🌑 Dark Mode
 
