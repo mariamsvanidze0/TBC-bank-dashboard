@@ -47,9 +47,6 @@ Built with a mobile-first approach:
 - Optimized layout for screens: desktop (≥1600px), tablet (~768px), and mobile (<480px)
 - Custom mobile navbar for quick access
 
-## 📷 Screenshots
-
-*Add screenshots here (optional)*
 
 ## 📌 Author
 
