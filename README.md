@@ -40,7 +40,6 @@ Toggle dark mode using the sun/moon button in the top-right corner. Implemented 
 
 - HTML5
 - CSS3 (custom variables for theming)
-- Vanilla JavaScript (for dark mode toggle)
 
 ## 📱 Responsive Design
 
